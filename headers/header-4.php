@@ -20,7 +20,7 @@
                     wp_nav_menu(array(
                         'container'       => false,
                         'container_class' => 'as-menu',
-                        'menu_class'      => 'as-menu-4',
+                        'menu_class'      => 'as-menu-4 as-menu-roll',
                         'theme_location'  => 'as_header_menu',
                         'before'          => '',
                         'after'           => '',

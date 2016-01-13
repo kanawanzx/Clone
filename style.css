@@ -1197,9 +1197,24 @@ ul.as-social-nav > li span.dslc-icon{
     min-height: 100px;
     position: absolute;
     width: 100%;
-    z-index: 99999;
+    z-index: 9998;
     display: flex;
     align-items: center;
+}
+.as-header-4-menu-wrapper .as-menu-4{
+    text-align: left;
+    text-transform: uppercase;
+    list-style: none;
+}
+.as-header-4-menu-wrapper .as-menu-4 li{
+    display: inline-block;
+    padding-right: 22px;
+}
+.as-header-4-menu-wrapper .as-menu-4 li:last-child{
+    padding-right: 0;
+}
+.as-header-4-menu-wrapper .as-menu-4 li:hover a{
+   color: #337c10;
 }
 .as-wrapper-header-4{
     display: flex;
@@ -1209,7 +1224,7 @@ ul.as-social-nav > li span.dslc-icon{
      float: right;
 }
 .as-search-header-4{
-    border-left: 2px solid #fff;
+    border-left: 1px solid #fff;
     padding-left: 30px;
 }
 /**** Navigation Effect ****/
