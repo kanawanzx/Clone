@@ -142,6 +142,9 @@ ul.contact-info-widget li .as-icon-contact-wrapper{
 .woocommerce table.cart a.remove:hover, .woocommerce #content table.cart a.remove:hover, .woocommerce-page table.cart a.remove:hover, .woocommerce-page #content table.cart a.remove:hover {
 	color: '.$main_color.';
 }
+.search-form-wrapper-dialog input[type="submit"],.search-form-wrapper-dialog input[type="submit"]:hover{
+    color: '.$main_color.';
+}
 ';
 ?>
 

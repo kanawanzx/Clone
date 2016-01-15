@@ -1907,7 +1907,6 @@ ul.as-social-nav > li span.dslc-icon{
 	font-weight: 600;
 	background: none;
 	text-align: center;
-	color: #f9bf3b;
 	text-transform: uppercase;
 	padding: 10px 25px;
 	letter-spacing: 3px;
@@ -1922,7 +1921,6 @@ ul.as-social-nav > li span.dslc-icon{
 }
 .search-form-wrapper-dialog input[type='submit']:hover {
 	color: #fff;
-	background: #f9bf3b;
 }
 /* ---------------------------------------- */
 /* 12. Contact Form
