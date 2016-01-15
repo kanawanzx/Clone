@@ -69,8 +69,9 @@ _.extend(AS.pubsub, Backbone.Events);
 			var target = $(event.currentTarget),
 			id         = target.attr('href'),
 			offset     = id !== "#home" ? $(id).offset().top : 0;
-			//check is normal link or not
+			//check is normal link or not 
 			if(id.indexOf("#") > -1){
+                            $('html, body').stop();
 				$('html, body').animate({
 			        scrollTop: offset
 			    }, 2000,'easeOutExpo');
@@ -78,6 +79,7 @@ _.extend(AS.pubsub, Backbone.Events);
 			} else {
 				return true;
 			}
+                       
 		},
 		renderProject: function(event){
 			event.preventDefault();
