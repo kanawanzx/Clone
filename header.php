@@ -4,7 +4,7 @@
  *
  * Displays all of the <head> section and everything up till <div id="main">
  *
- * @author : Alena Studio
+ * @author : Heli Studio
  */
 ?><!DOCTYPE html>
 <!--[if IE 7]>

@@ -1,12 +1,12 @@
 <?php
 /**
- * Anna the comment of post.
+ * Heli the comment of post.
  *
  * Sets up the comment.
  *
  * @package WordPress
- * @subpackage Anna
- * @since Anna 1.0
+ * @subpackage Heli
+ * @since Heli 1.0
  */
 if (!empty($_SERVER['SCRIPT_FILENAME']) && 'comments.php' == basename($_SERVER['SCRIPT_FILENAME']))
     die(__('Please do not load this page directly. Thanks!', AS_DOMAIN));

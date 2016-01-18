@@ -48,7 +48,7 @@ if (!function_exists('wbc_extended_example')) {
          * *********************************************************************** */
 
         // If it's demo1 - demo6
-        $wbc_menu_array = array( 'Business-onepage', 'Portfolio', 'Creative', 'Creative-onepage');
+        $wbc_menu_array = array( 'Business-onepage','Creative-onepage');
 
         if (isset($demo_active_import[$current_key]['directory']) && !empty($demo_active_import[$current_key]['directory']) && in_array($demo_active_import[$current_key]['directory'], $wbc_menu_array)) {
             $top_menu = get_term_by('name', 'Temp Menu', 'nav_menu');
@@ -69,8 +69,6 @@ if (!function_exists('wbc_extended_example')) {
         // array of demos/homepages to check/select from
         $wbc_home_pages = array(
 	        'Business-onepage' 	=> 'Home',
-	        'Portfolio' 	=> 'Home',
-            'Creative' 			=> 'Home',
             'Creative-onepage' 		=> 'Home',
         );
 

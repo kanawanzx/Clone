@@ -2,8 +2,8 @@
 /**
  * Template Name: Search Page
  *
- * @package Anna
- * @since Anna Theme 1.0
+ * @package Heli
+ * @since Heli Theme 1.0
  */
 global $wp_query, $wp_rewrite;
 get_header();

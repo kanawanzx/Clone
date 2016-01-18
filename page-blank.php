@@ -2,8 +2,8 @@
 /**
  * Template name: Page Blank
  *
- * @package Anna
- * @since Anna Theme 1.0
+ * @package Heli
+ * @since Heli Theme 1.0
  */
 get_header();
 ?>
