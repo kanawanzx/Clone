@@ -14,7 +14,8 @@
         </div>
         <div class="dslc-col dslc-8-col">
             <div class="as-header-4-menu-wrapper">
-                <nav>
+                <nav id="cssmenu">
+                    <div class="button"></div>
                     <!-- Menu -->
                     <?php
                     wp_nav_menu(array(
