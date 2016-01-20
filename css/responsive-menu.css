@@ -2,6 +2,9 @@
 .as-search-and-shop li:first-child{
     margin-right: 20px;
 }
+.cart_list.product_list_widget {
+    font-size: 12px;
+}
 .as-search-and-shop{
     font-size: 18px;
 }
