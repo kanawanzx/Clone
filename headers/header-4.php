@@ -31,6 +31,9 @@
                         'link_after'      => '',
                         'fallback_cb'     => false,
                     ));
+                    if (!is_front_page()){
+		                    echo "<input type='hidden' id='as-douma' value='".home_url()."'>";
+	                    }
                     ?>
                 </nav>
             </div>

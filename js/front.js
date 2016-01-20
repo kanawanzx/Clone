@@ -65,22 +65,40 @@ _.extend(AS.pubsub, Backbone.Events);
 			formSearch = new DialogFx( document.getElementById(id) );
 			formSearch.toggle();
 		},
-		scrollTo: function(event){
-			var target = $(event.currentTarget),
-			id         = target.attr('href'),
-			offset     = id !== "#home" ? $(id).offset().top : 0;
-			//check is normal link or not 
-			if(id.indexOf("#") > -1){
-                            $('html, body').stop();
-				$('html, body').animate({
-			        scrollTop: offset
-			    }, 2000,'easeOutExpo');
-			    return false;
-			} else {
-				return true;
-			}
-                       
-		},
+		 scrollTo: function (event) {
+            var target = $(event.currentTarget);
+            id = target.attr('href');
+            var homeUrl = $("#as-douma");
+            id = id.trim();
+            var first_char = id.charAt(0);
+            if (first_char != '#') {
+                window.location.href = id;
+            }
+            else
+            {
+                if (homeUrl.length > 0)
+                {
+                    window.location.href = homeUrl.val() + id;
+                }
+                else
+                {
+                    var offset = id !== "#home" ? $(id).offset().top : 0;
+                    //check is normal link or not
+                    if (id.indexOf("#") > -1)
+                    {
+                        $('html, body').stop();
+                        $('html, body').animate({scrollTop: offset}, 2000, 'easeOutExpo');
+                        return false;
+                    }
+                    else
+                    {
+                        return true;
+                    }
+
+                }
+            }
+
+        },
 		renderProject: function(event){
 			event.preventDefault();
 			var target = $(event.currentTarget);
