@@ -36,15 +36,33 @@
             </div>
         </div>
         <div class="dslc-col dslc-1-col  dslc-last-col as-menu-search">
-            <div class="as-search-header-4">
-                <?php if (as_option('as_option_check_icon_search_header_4', '1')): ?>
-                    <a href="javascript:void(0);" title="search" class="as-search-header trigger-search" data-id="search_dialog"><span class="dslc-icon dslc-icon-search"></span></a>
-                    <?php else :?>
+            <!-- Icon Shop & Search -->
+            <?php if (as_option('as_option_check_icon_search_header_4', '1')): ?>
+                    <ul class="as-search-and-shop as-search-header-4">
+                            <?php
+                            if (class_exists('Woocommerce')) {
+                                global $woocommerce;
+                                ?>
+                                <li class="as-icon-shopping">
+                                    <a href="javascript:void(0);"><span class="dslc-icon dslc-icon-shopping-cart"></span><span class="as-quatity-item-woo"><?php echo sprintf(_n('%d', '%d', $woocommerce->cart->cart_contents_count, 'woothemes'), $woocommerce->cart->cart_contents_count); ?></span></a>
+                                    <div class="widget_shopping_cart_content"></div>
+                                </li>
+                                <?php
+                            }
+                        ?>
+                            <li>
+                                <a href="#" class="trigger-search" data-id="search_dialog">
+                                    <span class="dslc-icon dslc-icon-search"></span>
+                                </a>
+                            </li>
+                    </ul>
+             <?php else :?>
                     &nbsp;
                         <?php endif; ?>
+                <!-- Icon Shop & Search / End -->
             </div>
+
         </div>
-            <div class="as-sub-menu-scroll"></div>
     </div>
     </div>
 </header>

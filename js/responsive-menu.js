@@ -38,7 +38,7 @@
             if (settings.sticky === true)
                 cssmenu.css('position', 'fixed');
             resizeFix = function () {
-                var mediasize = 700;
+                var mediasize = 979;
                 if ($(window).width() > mediasize) {
                     cssmenu.find('ul').show();
                 }
@@ -53,25 +53,9 @@
 })(jQuery);
 
 (function ($) {
-    $(window).resize(function () { 
-    var as_width;
-    as_width = $(window).width();
-    if (as_width < 996) {
-        $(".as-sub-menu-scroll").html($(".as-mail-menu-scroll").html());
-        $(".as-sub-menu-scroll").addClass("dslc-last-col dslc-col dslc-8-col");
-        $(".as-menu-search").removeClass("dslc-last-col")
-        $(".as-mail-menu-scroll").remove();
-    }
-    });
+
     $(document).ready(function () {
-        var as_width;
-    as_width = $(window).width();
-    if (as_width < 996) {
-        $(".as-sub-menu-scroll").html($(".as-mail-menu-scroll").html());
-        $(".as-sub-menu-scroll").addClass("dslc-last-col dslc-col dslc-8-col");
-        $(".as-menu-search").removeClass("dslc-last-col")
-        $(".as-mail-menu-scroll").remove();
-    }
+        
         $("#as-menu-scroll").menumaker({
             format: "multitoggle"
         });

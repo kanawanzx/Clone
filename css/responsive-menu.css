@@ -1,3 +1,30 @@
+
+.as-search-and-shop li:first-child{
+    margin-right: 20px;
+}
+.as-search-and-shop{
+    font-size: 18px;
+}
+.as-quatity-item-woo{
+    margin-left: -5px;
+    position: absolute;
+    background: #AED13B;
+    color: #2B3D4F;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    top: 9px;
+    text-align: center;
+    font-size: 11px;
+    line-height: 22px;
+    font-weight: 700;
+}
+.as-search-and-shop li{
+    display: inline;
+}
+
 @media screen and (max-width: 996px) {
     .as-nav-menu-button {
         width: 40px;
@@ -74,7 +101,7 @@
     }
     .as-header-4-menu-wrapper{
         position: absolute;
-        right: 0;
+        right: 70px;
     }
     .as-header-4-menu-wrapper .as-menu-4{
         background-color: #0d0d0e;
@@ -87,5 +114,15 @@
     }
     .as-header-4-menu-wrapper .as-menu-4 li:last-child{
         border-bottom: none;
+    }
+    .as-search-header-4{
+        border-left: none;
+        top: 0;
+        right: 0;
+        margin-top: -6px;
+        position: absolute;
+    }
+    .as-quatity-item-woo{
+        top:-3px;
     }
 }
