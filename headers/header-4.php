@@ -12,10 +12,12 @@
                     &nbsp;
             <?php endif;?>
         </div>
-        <div class="dslc-col dslc-8-col">
+        <div class="dslc-col dslc-8-col as-mail-menu-scroll">
             <div class="as-header-4-menu-wrapper">
-                <nav id="cssmenu">
-                    <div class="button"></div>
+                <nav id="as-menu-scroll">
+                    <div class="as-nav-menu-button">
+                        <span class="as-button-icon"></span>
+                    </div>
                     <!-- Menu -->
                     <?php
                     wp_nav_menu(array(
@@ -33,7 +35,7 @@
                 </nav>
             </div>
         </div>
-        <div class="dslc-col dslc-1-col  dslc-last-col">
+        <div class="dslc-col dslc-1-col  dslc-last-col as-menu-search">
             <div class="as-search-header-4">
                 <?php if (as_option('as_option_check_icon_search_header_4', '1')): ?>
                     <a href="javascript:void(0);" title="search" class="as-search-header trigger-search" data-id="search_dialog"><span class="dslc-icon dslc-icon-search"></span></a>
@@ -42,6 +44,7 @@
                         <?php endif; ?>
             </div>
         </div>
+            <div class="as-sub-menu-scroll"></div>
     </div>
     </div>
 </header>

@@ -325,100 +325,100 @@ $sections[] = array(
         ),
     )
 );
-// Logo SideNav -------------------------------------------------------------------------- >
-$sections[] = array(
-    'icon'       => 'el-icon-chevron-right',
-    'icon_class' => 'el-icon-large',
-    'title'      => __('Setting In SideNav', AS_DOMAIN),
-    'submenu'    => true,
-    'subsection' => true,
-    'fields'     => array(
-        array(
-            'id'       => 'as_option_logo_width_sidenav',
-            'type'     => 'dimensions',
-            'height'   => false,
-            'units'    => array(
-                'em',
-                'px',
-                '%'), // You can specify a unit value. Possible: px, em, %
-            'title'    => __('Width of Logo (px)', AS_DOMAIN),
-            'subtitle' => __('Ex:220(px)', AS_DOMAIN),
-            'output'   => array(
-                '.as-main-nav-menu .as-logo-sidenav img'),
-            'default'  => array(
-                'width' => 150,
-                'units' => 'px'
-            )
-        ),
-        array(
-            'id'       => 'as_option_padding_logo_sidenav',
-            'type'     => 'spacing',
-            'output'   => array(
-                '.as-main-nav-menu .as-logo-sidenav'),
-            'mode'     => 'padding',
-            'top'      => true, // Disable the top
-            'right'    => true, // Disable the right
-            'bottom'   => true, // Disable the bottom
-            'left'     => true, // Disable the left
-            'units'    => 'px', // You can specify a unit value. Possible: px, em, %
-            'title'    => __('Padding Logo Setting (px)', AS_DOMAIN),
-            'subtitle' => __('Allow you to choose the padding you want.', AS_DOMAIN),
-            'desc'     => __('', AS_DOMAIN),
-            'default'  => array(
-                'padding-top'    => '0',
-                'padding-right'  => '0',
-                'padding-bottom' => '0',
-                'padding-left'   => '0'
-            )
-        ),
-        array(
-            'id'       => 'as_option_margin_logo_sidenav',
-            'type'     => 'spacing',
-            'output'   => array(
-                '.as-main-nav-menu .as-logo-sidenav'),
-            'mode'     => 'margin',
-            'top'      => true, // Disable the top
-            'right'    => true, // Disable the right
-            'bottom'   => true, // Disable the bottom
-            'left'     => true, // Disable the left
-            'units'    => 'px', // You can specify a unit value. Possible: px, em, %
-            'title'    => __('Margin Logo Setting (px)', AS_DOMAIN),
-            'subtitle' => __('Allow you to choose the margin you want.', AS_DOMAIN),
-            'desc'     => __('', AS_DOMAIN),
-            'default'  => array(
-                'margin-top'    => '0',
-                'margin-right'  => '0',
-                'margin-bottom' => '0',
-                'margin-left'   => '0'
-            )
-        ),
-        array(
-            'id'            => 'as_option_position_logo_sidenav',
-            'type'          => 'spacing',
-            'output'        => array(
-                '.as-main-nav-menu .as-logo-sidenav img'),
-            'mode'          => 'absolute',
-            'top'           => true, // Disable the top
-            'right'         => true, // Disable the right
-            'bottom'        => true, // Disable the bottom
-            'left'          => true, // Disable the left
-            'units'         => array(
-                'px',
-                'em'),
-            'display_units' => true,
-            'title'         => __('Position Absolute Logo Setting (px)', AS_DOMAIN),
-            'subtitle'      => __('Allow your users to choose the spacing or position you want.(top, right, bottom, left)', AS_DOMAIN),
-            'desc'          => __('', AS_DOMAIN),
-            'default'       => array(
-                'top'    => 0,
-                'right'  => 0,
-                'bottom' => 0,
-                'left'   => 0,
-                'units'  => 'px',
-            )
-        ),
-    )
-);
+//// Logo SideNav -------------------------------------------------------------------------- >
+//$sections[] = array(
+//    'icon'       => 'el-icon-chevron-right',
+//    'icon_class' => 'el-icon-large',
+//    'title'      => __('Setting In SideNav', AS_DOMAIN),
+//    'submenu'    => true,
+//    'subsection' => true,
+//    'fields'     => array(
+//        array(
+//            'id'       => 'as_option_logo_width_sidenav',
+//            'type'     => 'dimensions',
+//            'height'   => false,
+//            'units'    => array(
+//                'em',
+//                'px',
+//                '%'), // You can specify a unit value. Possible: px, em, %
+//            'title'    => __('Width of Logo (px)', AS_DOMAIN),
+//            'subtitle' => __('Ex:220(px)', AS_DOMAIN),
+//            'output'   => array(
+//                '.as-main-nav-menu .as-logo-sidenav img'),
+//            'default'  => array(
+//                'width' => 150,
+//                'units' => 'px'
+//            )
+//        ),
+//        array(
+//            'id'       => 'as_option_padding_logo_sidenav',
+//            'type'     => 'spacing',
+//            'output'   => array(
+//                '.as-main-nav-menu .as-logo-sidenav'),
+//            'mode'     => 'padding',
+//            'top'      => true, // Disable the top
+//            'right'    => true, // Disable the right
+//            'bottom'   => true, // Disable the bottom
+//            'left'     => true, // Disable the left
+//            'units'    => 'px', // You can specify a unit value. Possible: px, em, %
+//            'title'    => __('Padding Logo Setting (px)', AS_DOMAIN),
+//            'subtitle' => __('Allow you to choose the padding you want.', AS_DOMAIN),
+//            'desc'     => __('', AS_DOMAIN),
+//            'default'  => array(
+//                'padding-top'    => '0',
+//                'padding-right'  => '0',
+//                'padding-bottom' => '0',
+//                'padding-left'   => '0'
+//            )
+//        ),
+//        array(
+//            'id'       => 'as_option_margin_logo_sidenav',
+//            'type'     => 'spacing',
+//            'output'   => array(
+//                '.as-main-nav-menu .as-logo-sidenav'),
+//            'mode'     => 'margin',
+//            'top'      => true, // Disable the top
+//            'right'    => true, // Disable the right
+//            'bottom'   => true, // Disable the bottom
+//            'left'     => true, // Disable the left
+//            'units'    => 'px', // You can specify a unit value. Possible: px, em, %
+//            'title'    => __('Margin Logo Setting (px)', AS_DOMAIN),
+//            'subtitle' => __('Allow you to choose the margin you want.', AS_DOMAIN),
+//            'desc'     => __('', AS_DOMAIN),
+//            'default'  => array(
+//                'margin-top'    => '0',
+//                'margin-right'  => '0',
+//                'margin-bottom' => '0',
+//                'margin-left'   => '0'
+//            )
+//        ),
+//        array(
+//            'id'            => 'as_option_position_logo_sidenav',
+//            'type'          => 'spacing',
+//            'output'        => array(
+//                '.as-main-nav-menu .as-logo-sidenav img'),
+//            'mode'          => 'absolute',
+//            'top'           => true, // Disable the top
+//            'right'         => true, // Disable the right
+//            'bottom'        => true, // Disable the bottom
+//            'left'          => true, // Disable the left
+//            'units'         => array(
+//                'px',
+//                'em'),
+//            'display_units' => true,
+//            'title'         => __('Position Absolute Logo Setting (px)', AS_DOMAIN),
+//            'subtitle'      => __('Allow your users to choose the spacing or position you want.(top, right, bottom, left)', AS_DOMAIN),
+//            'desc'          => __('', AS_DOMAIN),
+//            'default'       => array(
+//                'top'    => 0,
+//                'right'  => 0,
+//                'bottom' => 0,
+//                'left'   => 0,
+//                'units'  => 'px',
+//            )
+//        ),
+//    )
+//);
 // Typography -------------------------------------------------------------------------- >
 $sections[] = array(
     'title'      => __('Typography Setting', AS_DOMAIN),
@@ -1968,7 +1968,7 @@ $sections[] = array(
             'type'     => 'text',
             'title'    => __('Copyright', AS_DOMAIN),
             'subtitle' => __('Enter your custom copyright text.', AS_DOMAIN),
-            'default'  => '© Copyright 2015 by ANNA - All Rights Reserved',
+            'default'  => '© Copyright 2015 by HELI - All Rights Reserved',
         ),
         array(
             'id'             => 'as_option_typography_menu_footer_1',
@@ -2322,7 +2322,7 @@ $sections[] = array(
 //            'type'     => 'text',
 //            'title'    => __('Copyright', AS_DOMAIN),
 //            'subtitle' => __('Enter your custom copyright text.', AS_DOMAIN),
-//            'default'  => '© Copyright 2015 by ANNA - All Rights Reserved',
+//            'default'  => '© Copyright 2015 by HELI - All Rights Reserved',
 //        ),
 //        array(
 //            'id'             => 'as_option_typography_menu_footer_2',
