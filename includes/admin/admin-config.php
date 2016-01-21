@@ -504,7 +504,7 @@ $sections[] = array(
             'subtitle'       => __('Select your custom font options for your main navigation menu.', AS_DOMAIN),
             'default'        => array(
                 'color'       => '#2c3e50',
-                'font-family' => 'Open Sans',
+                'font-family' => 'Oswald',
                 'font-size'   => '13px',
                 'font-weight' => '400',
             )
@@ -531,7 +531,7 @@ $sections[] = array(
             'subtitle'       => __('Select your custom font options for heading font (H1, H2, H3, H4, H5, H6).', AS_DOMAIN),
             'default'        => array(
                 'color'       => '#6B707E',
-                'font-family' => 'Open Sans',
+                'font-family' => 'Oswald',
                 'font-weight' => '700',
             )
         ),
@@ -583,7 +583,7 @@ $sections[] = array(
             'type'     => 'switch',
             'title'    => __('Show / Hide Header', AS_DOMAIN),
             'subtitle' => __('Enable this option to make on/off header.', AS_DOMAIN),
-            'default'  => '1',
+            'default'  => '4',
         ),
         array(
             'id'       => 'as_option_custom_header',
@@ -941,7 +941,7 @@ $sections[] = array(
             'subtitle'       => __('Select your custom font options for your main navigation menu.', AS_DOMAIN),
             'default'        => array(
                 'color'          => '#BABABA',
-                'font-family'    => 'Open Sans',
+                'font-family'    => 'Oswald',
                 'font-size'      => '32',
                 'font-weight'    => '400',
                 'letter-spacing' => '5',
