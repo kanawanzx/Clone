@@ -4,7 +4,7 @@ Theme URI: http://helistudio.com
 Author: Heli Studio
 Author URI: http://helistudio.com
 Description: In 2015, our default theme lets you create a responsive business website with a sleek, modern design. Feature your favorite homepage content in either a grid or a slider. Use the unlimited widget areas to customize your website, and change your content's layout with a full-width page template and a contributor page to show off your authors. Creating a business website with WordPress has never been easier.
-Version: 2.2
+Version: 1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: black, green, white, light, dark, two-columns, three-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready
@@ -2399,13 +2399,13 @@ ul.contact-info-widget li p{
 	margin-bottom: 30px;
 }
 .as-btn-404-back-home{
-	background-color: rgb(248, 191, 59);
+	background-color: rgb(160, 206, 78);
 	border: 1px solid;
 	padding: 7px 20px;
 	display: inline-block;
 	outline-width: 1px;
 	outline-offset: 2px;
-	outline-color: rgb(248, 191, 59);
+	outline-color: rgb(160, 206, 78);
 	outline-style: solid;
 	color: #ffffff;
 	font-size: 13px;
