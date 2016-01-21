@@ -1346,7 +1346,7 @@ $sections[] = array(
         array(
             'id'             => 'as_option_breadcrumb_sub_link',
             'type'           => 'typography',
-            'title'          => __('Style title of breadcrumb.', AS_DOMAIN),
+            'title'          => __('Style Sub title of breadcrumb.', AS_DOMAIN),
             'compiler'       => false,
             'google'         => true,
             'font-backup'    => false,
