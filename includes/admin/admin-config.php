@@ -604,7 +604,7 @@ $sections[] = array(
 //                    'alt' => 'Header 3',
 //                    'img' => get_template_directory_uri() . '/img/admin-core-img/header-3.jpg'
 //                ),
-                 '4' => array(
+                '4' => array(
                     'alt' => 'Header 4',
                     'img' => get_template_directory_uri() . '/img/admin-core-img/header-4.jpg'
                 )
@@ -614,7 +614,7 @@ $sections[] = array(
                 'as_option_check_header',
                 "=",
                 1),
-           // 'desc'     => __('Note*: Option header 3, you can setting style in Options Theme > SideNav.', AS_DOMAIN),
+        // 'desc'     => __('Note*: Option header 3, you can setting style in Options Theme > SideNav.', AS_DOMAIN),
         ),
     )
 );
@@ -872,7 +872,7 @@ $sections[] = array(
     'submenu'    => true,
     'subsection' => true,
     'fields'     => array(
-                array(
+        array(
             'id'       => 'as_option_check_logo_header_4',
             'type'     => 'switch',
             'title'    => __('Show / Hide Logo Header', AS_DOMAIN),
@@ -901,30 +901,10 @@ $sections[] = array(
             )
         ),
         array(
-            'id'       => 'as_option_margin_header_4',
-            'type'     => 'spacing',
-            'output'   => array(
-                '#as-header-4'),
-            'mode'     => 'margin',
-            'top'      => true, // Disable the top
-            'right'    => true, // Disable the right
-            'bottom'   => true, // Disable the bottom
-            'left'     => true, // Disable the left
-            'units'    => 'px', // You can specify a unit value. Possible: px, em, %
-            'title'    => __('Margin Header Setting (px)', AS_DOMAIN),
-            'subtitle' => __('Allow you to choose the margin you want.', AS_DOMAIN),
-            'desc'     => __('', AS_DOMAIN),
-            'default'  => array(
-                'margin-top'    => '0',
-                'margin-right'  => '0',
-                'margin-bottom' => '0',
-                'margin-left'   => '0'
-            )
-        ),
-        array(
             'id'       => 'as_option_background_header_4',
             'type'     => 'background',
-            'output'   => array('#as-header-4'),
+            'output'   => array(
+                '#as-header-4'),
             'title'    => __('Header Background', AS_DOMAIN),
             'subtitle' => __('Header background with image, color, etc.', AS_DOMAIN),
             'default'  => array(
@@ -938,13 +918,6 @@ $sections[] = array(
                 'background-size'       => '',
                 'media'                 => array(),
             ),
-        ),
-        array(
-            'id'       => 'as_option_check_icon_search_header_4',
-            'type'     => 'switch',
-            'title'    => __('Show / Hide Icon Search', AS_DOMAIN),
-            'subtitle' => __('Enable this option to make on/off Icon Search.', AS_DOMAIN),
-            'default'  => '1',
         ),
         array(
             'id'             => 'as_option_menu_nav_header_4',
@@ -974,21 +947,59 @@ $sections[] = array(
                 'letter-spacing' => '5',
             )
         ),
-                array(
+        array(
             'id'       => 'as_option_menu_hover_header_4',
             'type'     => 'link_color',
             'title'    => __('Links Color Hover', AS_DOMAIN),
             'subtitle' => __('Choose color for footer menu', AS_DOMAIN),
             'desc'     => __('', 'redux-framework-demo'),
             'output'   => array(
-                 '.as-header-4-menu-wrapper .as-menu-4 > li:hover > a'),
+                '.as-header-4-menu-wrapper .as-menu-4 > li:hover > a,.as-search-and-shop.as-search-header-4 li:hover a span.dslc-icon.dslc-icon-shopping-cart, 
+                .as-search-and-shop.as-search-header-4 li a span.dslc-icon-search'),
             'default'  => array(
                 'regular' => '#337c10',
                 'hover'   => '#337c10',
                 'active'  => '#337c10',
             ),
         ),
-       
+        array(
+            'id'       => 'as_option_check_icon_search_header_4',
+            'type'     => 'switch',
+            'title'    => __('Show / Hide Icon Search And Shop', AS_DOMAIN),
+            'subtitle' => __('Enable this option to make on/off Icon Search.', AS_DOMAIN),
+            'default'  => '1',
+        ),
+        array(
+            'id'             => 'as_option_icon_colorfor_header_4',
+            'type'           => 'typography',
+            'title'          => __('Color Icon', AS_DOMAIN),
+            'compiler'       => false,
+            'google'         => false,
+            'font-backup'    => false,
+            'font-style'     => false,
+            'font-family'    => false,
+            'font-weight'    => false,
+            'subsets'        => false,
+            'font-size'      => false,
+            'line-height'    => false,
+            'word-spacing'   => false,
+            'text-align'     => false,
+            'letter-spacing' => false,
+            'color'          => true,
+            'preview'        => false,
+            'output'         => array(
+                '.as-search-and-shop.as-search-header-4 li a span.dslc-icon.dslc-icon-shopping-cart, 
+                .as-search-and-shop.as-search-header-4 li a span.dslc-icon-search'),
+            'units'          => 'px',
+            'subtitle'       => __('Select your custom  options for color icon.', AS_DOMAIN),
+            'default'        => array(
+                'color' => '#a0ce4e',
+            ),
+            'required' => array(
+                'as_option_check_icon_search_header_4',
+                "=",
+                1),
+        ),
     )
 );
 //// SideNav -------------------------------------------------------------------------- >

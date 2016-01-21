@@ -145,7 +145,7 @@ ul.contact-info-widget li .as-icon-contact-wrapper{
 .search-form-wrapper-dialog input[type="submit"]{
     color: '.$main_color.';
 }
-.search-form-wrapper-dialog input[type="submit"]:hover{
+.as-quatity-item-woo, .search-form-wrapper-dialog input[type="submit"]:hover{
         background: '.$main_color.';
 }
 ';

@@ -68,7 +68,7 @@ if (post_password_required())
             comment_form(
                     array(
                         'comment_field' => '<div class="clear" style="height:5px;"></div><div class="clearfix comment-textarea">
-                    <textarea style="padding:14px 2%; width:96%;" tabindex="4" cols="15" rows="10" id="comment" name="comment">' . __('Message (Required)', AS_DOMAIN) . '</textarea>
+                    <textarea style="padding:14px 2%; width:96%;" tabindex="4" cols="15" rows="10" id="comment" name="comment" placeholder="' . __('Message (Required)', AS_DOMAIN) . '"></textarea>
                 </div>'
             ));
             ?>
