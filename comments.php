@@ -53,13 +53,13 @@ if (post_password_required())
             function my_fields($fields)
             {
                 $fields['author'] = '<div class="as-input-comment as-name-label">
-                    <input type="text" aria-required="true" tabindex="1" size="22" value="' . __('Your name (Required)', AS_DOMAIN) . '" id="author" name="author">
+                    <input type="text" aria-required="true" tabindex="1" size="22" placeholder="' . __('Your name (Required)', AS_DOMAIN) . '" id="author" name="author">
                 </div>';
                 $fields['email']  = '<div class="as-input-comment as-email-label">
-                    <input type="text" aria-required="true" tabindex="2" size="22" value="' . __('Email (Required)', AS_DOMAIN) . '" id="email" name="email">
+                    <input type="text" aria-required="true" tabindex="2" size="22" placeholder="' . __('Email (Required)', AS_DOMAIN) . '" id="email" name="email">
                 </div>';
                 $fields['url']    = '<div class="as-input-comment as-url-website-label" style="margin-right:0 !important;">
-                    <input type="text" tabindex="3" size="22" value="' . __('Website', AS_DOMAIN) . '" id="url" name="url">
+                    <input type="text" tabindex="3" size="22" placeholder="' . __('Website', AS_DOMAIN) . '" id="url" name="url">
                 </div>';
                 return $fields;
             }
