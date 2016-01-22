@@ -6,8 +6,8 @@
  * Please note that this is the WordPress construct of pages and that
  * other 'pages' on your WordPress site will use a different template.
  *
- * @package Heli
- * @since Heli Theme 1.0
+ * @package Anna
+ * @since Anna Theme 1.0
  */
 get_header(); 
 

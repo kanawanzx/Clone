@@ -1,12 +1,12 @@
 <?php
 /**
- * Heli the format content link.
+ * Anna the format content link.
  *
  * Set up the content.
  *
  * @package WordPress
- * @subpackage Heli
- * @since Heli 1.0
+ * @subpackage Anna
+ * @since Anna 1.0
  */
 ?>
 <?php

@@ -1,12 +1,12 @@
 <?php
 /**
- * Heli the comment of post.
+ * Anna the comment of post.
  *
  * Sets up the comment.
  *
  * @package WordPress
- * @subpackage Heli
- * @since Heli 1.0
+ * @subpackage Anna
+ * @since Anna 1.0
  */
 if (!empty($_SERVER['SCRIPT_FILENAME']) && 'comments.php' == basename($_SERVER['SCRIPT_FILENAME']))
     die(__('Please do not load this page directly. Thanks!', AS_DOMAIN));
@@ -53,13 +53,13 @@ if (post_password_required())
             function my_fields($fields)
             {
                 $fields['author'] = '<div class="as-input-comment as-name-label">
-                    <input type="text" aria-required="true" tabindex="1" size="22" placeholder="' . __('Your name (Required)', AS_DOMAIN) . '" id="author" name="author">
+                    <input type="text" aria-required="true" tabindex="1" size="22" value="' . __('Your name (Required)', AS_DOMAIN) . '" id="author" name="author">
                 </div>';
                 $fields['email']  = '<div class="as-input-comment as-email-label">
-                    <input type="text" aria-required="true" tabindex="2" size="22" placeholder="' . __('Email (Required)', AS_DOMAIN) . '" id="email" name="email">
+                    <input type="text" aria-required="true" tabindex="2" size="22" value="' . __('Email (Required)', AS_DOMAIN) . '" id="email" name="email">
                 </div>';
                 $fields['url']    = '<div class="as-input-comment as-url-website-label" style="margin-right:0 !important;">
-                    <input type="text" tabindex="3" size="22" placeholder="' . __('Website', AS_DOMAIN) . '" id="url" name="url">
+                    <input type="text" tabindex="3" size="22" value="' . __('Website', AS_DOMAIN) . '" id="url" name="url">
                 </div>';
                 return $fields;
             }
@@ -68,7 +68,7 @@ if (post_password_required())
             comment_form(
                     array(
                         'comment_field' => '<div class="clear" style="height:5px;"></div><div class="clearfix comment-textarea">
-                    <textarea style="padding:14px 2%; width:96%;" tabindex="4" cols="15" rows="10" id="comment" name="comment" placeholder="' . __('Message (Required)', AS_DOMAIN) . '"></textarea>
+                    <textarea style="padding:14px 2%; width:96%;" tabindex="4" cols="15" rows="10" id="comment" name="comment">' . __('Message (Required)', AS_DOMAIN) . '</textarea>
                 </div>'
             ));
             ?>

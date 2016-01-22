@@ -1,12 +1,12 @@
 <?php
 /**
- * Heli the single page.
+ * Anna the single page.
  *
  * Set up the single page.
  *
  * @package WordPress
- * @subpackage Heli
- * @since Heli 1.0
+ * @subpackage Anna
+ * @since Anna 1.0
  */
 get_header();
 global $wp_query;

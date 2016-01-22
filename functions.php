@@ -100,9 +100,9 @@ function as_customize_excerpt( $limit ) {
 }
 
 /* ----------------------------------------------------------------------------------- */
-/* 	Main Heli Class */
+/* 	Main Anna Class */
 /* ----------------------------------------------------------------------------------- */
-class Heli extends AE_Base {
+class Anna extends AE_Base {
 	function __construct() {
 		/**
 		 *  all theme actions go here
@@ -149,8 +149,7 @@ class Heli extends AE_Base {
 		));
 		// Panel Demo Style
 		$this->add_script('intro_demo', TEMPLATEURL . '/js/custom_panel.js', array('jquery'));
-		// Responsive menu
-		$this->add_script('responsive-menu', TEMPLATEURL . '/js/responsive-menu.js', array('jquery'));
+		
 		// Custom
 		$this->add_script('main', TEMPLATEURL . '/js/main.js', array('jquery'));
 		$this->add_script('jquery.appear', TEMPLATEURL . '/js/libs/jquery.appear.js', array('jquery', 'main'));
@@ -189,8 +188,6 @@ class Heli extends AE_Base {
         $this->add_style('as-style', get_stylesheet_uri());
         // Responsive Style
         $this->add_style('responsive-style', TEMPLATEURL . '/css/responsive-style.css', array(), '1.0', 'all');
-         // Responsive Style
-        $this->add_style('responsive-style-menu', TEMPLATEURL . '/css/responsive-menu.css', array(), '1.0', 'all');
 		// Custom Style
         $this->add_style('custom', TEMPLATEURL . '/css/custom-style.php', array(), '1.0', 'all');
 	}
@@ -431,5 +428,5 @@ class Heli extends AE_Base {
 		wp_send_json( $response );
 	}
 }
-//call new Heli Class
-new Heli('Copyright® 2014 ElenaStudio!');
+//call new Anna Class
+new Anna('Copyright® 2014 ElenaStudio!');

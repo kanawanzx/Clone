@@ -818,8 +818,8 @@ td .variations_button{ float: left; }
 	border-top: 3px solid;
 	color: #333;
 	min-width: 300px;
-	right: -70px;
-	bottom: -120px;
+	right: -30px;
+	top: 40px;
 	padding: 20px 0 !important;
 	visibility: hidden;
 	opacity: 0;
@@ -838,7 +838,7 @@ td .variations_button{ float: left; }
 	visibility: visible;
 	opacity: 1;
 	filter: alpha(opacity=100);
-        bottom:-81px;
+	right: -70px;
 	-webkit-transition-delay: 0.2s;
 	transition-delay: 0.2s;
 }

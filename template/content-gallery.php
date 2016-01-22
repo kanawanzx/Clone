@@ -1,12 +1,12 @@
 <?php
 /**
- * Heli the format content post for index.
+ * Anna the format content post for index.
  *
  * Sets up the content.
  *
  * @package WordPress
- * @subpackage Heli
- * @since Heli 1.0
+ * @subpackage Anna
+ * @since Anna 1.0
  */
 $gallery_post_type = '';
 if (is_singular('dslc_projects'))

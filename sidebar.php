@@ -1,12 +1,12 @@
 <?php
 /**
- * Heli the sidebar default for index.
+ * Anna the sidebar default for index.
  *
  * Sets up the sidebar.
  *
  * @package WordPress
- * @subpackage Heli
- * @since Heli 1.0
+ * @subpackage Anna
+ * @since Anna 1.0
  */
 if ( class_exists('Woocommerce')) {
 	global $woocommerce; 

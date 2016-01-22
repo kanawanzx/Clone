@@ -223,3 +223,4 @@ if(!function_exists('aq_resize')) {
         return $aq_resize->process( $url, $width, $height, $crop, $single, $upscale );
     }
 }
+

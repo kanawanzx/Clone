@@ -1,12 +1,12 @@
 <?php
 /**
- * Heli the list social share for post.
+ * Anna the list social share for post.
  *
  * Sets up the share social.
  *
  * @package WordPress
- * @subpackage Heli
- * @since Heli 1.0
+ * @subpackage Anna
+ * @since Anna 1.0
  */
 ?>
 <ul class="as-list-icon-share-btn">

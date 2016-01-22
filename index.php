@@ -1,12 +1,12 @@
 <?php
 /**
- * Heli the page index .
+ * Anna the page index .
  *
  * Set up the page index .
  *
  * @package WordPress
- * @subpackage Heli
- * @since Heli 1.0
+ * @subpackage Anna
+ * @since Anna 1.0
  */
 global $wp_query, $wp_rewrite;
 get_header();

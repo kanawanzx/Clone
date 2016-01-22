@@ -1,12 +1,12 @@
 <?php
 /**
- * Heli the content.
+ * Anna the content.
  *
  * Sets up the content.
  *
  * @package WordPress
- * @subpackage Heli
- * @since Heli 1.0
+ * @subpackage Anna
+ * @since Anna 1.0
  */
 ?>
 <div class="as-content-blog-wrapper">

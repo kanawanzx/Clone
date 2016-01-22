@@ -1,12 +1,12 @@
 <?php
 /**
- * Heli the Breadcrumb for page.
+ * Anna the Breadcrumb for page.
  *
  * Sets up the Breadcrumb.
  *
  * @package WordPress
- * @subpackage Heli
- * @since Heli 1.0
+ * @subpackage Anna
+ * @since Anna 1.0
  */
 global $post;
 ?>

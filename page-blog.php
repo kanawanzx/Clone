@@ -10,8 +10,8 @@
  *
  * @link http://codex.wordpress.org/Template_Hierarchy
  *
- * @package Heli
- * @since Heli Theme 1.0
+ * @package Anna
+ * @since Anna Theme 1.0
  */
 global $wp_query, $wp_rewrite;
 get_header();

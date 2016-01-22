@@ -1,12 +1,12 @@
 <?php
 /**
- * Heli the format content quote.
+ * Anna the format content quote.
  *
  * Set up the content.
  *
  * @package WordPress
- * @subpackage Heli
- * @since Heli 1.0
+ * @subpackage Anna
+ * @since Anna 1.0
  */
 ?>
 <div class="as-featured-img as-featured-quote">

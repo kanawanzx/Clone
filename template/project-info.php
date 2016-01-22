@@ -1,12 +1,12 @@
 <?php
 /**
- * Heli the template single project content.
+ * Anna the template single project content.
  *
  * Sets up the single project content.
  *
  * @package WordPress
- * @subpackage Heli
- * @since Heli 1.0
+ * @subpackage Anna
+ * @since Anna 1.0
  */
 ?>
 <div class="as-content-blog-wrapper as-single-project">

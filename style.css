@@ -1,14 +1,14 @@
 /*
-Theme Name: Heli Theme
-Theme URI: http://helistudio.com
-Author: Heli Studio
-Author URI: http://helistudio.com
+Theme Name: Anna Theme
+Theme URI: http://alenastudio.com
+Author: Alena Studio
+Author URI: http://alenastudio.com
 Description: In 2015, our default theme lets you create a responsive business website with a sleek, modern design. Feature your favorite homepage content in either a grid or a slider. Use the unlimited widget areas to customize your website, and change your content's layout with a full-width page template and a contributor page to show off your authors. Creating a business website with WordPress has never been easier.
-Version: 1.0
+Version: 2.2
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: black, green, white, light, dark, two-columns, three-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready
-Text Domain: helistudio
+Text Domain: alenastudio
 */
 
 /*
@@ -265,7 +265,7 @@ textarea {
 	width: 98%;
 }
 a {
-	color: #337c10;
+	color: #f9bf3b;
 	text-decoration: none;
 }
 table {
@@ -516,7 +516,7 @@ select{
 #as-preloading-icon polygon.rect {
 	fill: none;
 	stroke-width: 8px;
-	stroke: #337c10;
+	stroke: #f9bf3b;
 	stroke-dasharray: 80;
 	stroke-dashoffset: 50%;
 	-webkit-animation: movedash-preloading 1.5s forwards 0s infinite;
@@ -1195,38 +1195,19 @@ ul.as-social-nav > li span.dslc-icon{
 #as-header-4{
     opacity: 0.7;
     min-height: 100px;
-    position: fixed;
+    position: absolute;
     width: 100%;
-    top:0;
-    z-index: 9998;
-    display: flex;
-    align-items: center;
+    z-index: 99999;
 }
-.as-header-4-menu-wrapper .as-menu-4{
-    text-align: left;
-    text-transform: uppercase;
-    list-style: none;
-}
-.as-header-4-menu-wrapper .as-menu-4 li{
-    display: inline-block;
-    padding-right: 22px;
-}
-.as-header-4-menu-wrapper .as-menu-4 li:last-child{
-    padding-right: 0;
-}
-.as-header-4-menu-wrapper .as-menu-4 li:hover a{
-   color: #337c10;
-}
-@media screen and (min-width: 1170px){
-    .as-wrapper-header-4{
+.as-wrapper-header-4{
     display: flex;
     align-items: center; 
 }
-} 
 .as-header-4-menu-wrapper{
      float: right;
 }
 .as-search-header-4{
+    border-left: 2px solid #fff;
     padding-left: 30px;
 }
 /**** Navigation Effect ****/
@@ -1540,13 +1521,13 @@ ul.as-social-nav > li span.dslc-icon{
 	font-weight: 700;
 	background: none;
 	text-align: center;
-	color: #337c10;
+	color: #f9bf3b;
 	text-transform: uppercase;
 	padding: 5px 20px;
 	letter-spacing: 3px;
-	border: 1px solid #337c10;
+	border: 1px solid #f9bf3b;
 	outline-offset: 2px;
-	outline: 1px solid #337c10;
+	outline: 1px solid #f9bf3b;
 	border-radius: 0;
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
@@ -1555,7 +1536,7 @@ ul.as-social-nav > li span.dslc-icon{
 }
 .as-post-btn-group a.as-btn-readmore:hover {
 	color: #fff;
-	background: #337c10;
+	background: #f9bf3b;
 }
 .as-post-social-group{
 	display: inline-block;
@@ -1908,12 +1889,13 @@ ul.as-social-nav > li span.dslc-icon{
 	font-weight: 600;
 	background: none;
 	text-align: center;
+	color: #f9bf3b;
 	text-transform: uppercase;
 	padding: 10px 25px;
 	letter-spacing: 3px;
-	border: 1px solid #337c10;
+	border: 1px solid #f9bf3b;
 	outline-offset: 2px;
-	outline: 1px solid #337c10;
+	outline: 1px solid #f9bf3b;
 	border-radius: 0;
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
@@ -1922,6 +1904,7 @@ ul.as-social-nav > li span.dslc-icon{
 }
 .search-form-wrapper-dialog input[type='submit']:hover {
 	color: #fff;
+	background: #f9bf3b;
 }
 /* ---------------------------------------- */
 /* 12. Contact Form
@@ -2042,9 +2025,9 @@ ul.as-social-nav > li span.dslc-icon{
 	text-transform: uppercase;
 	padding: 8px 10px;
 	letter-spacing: 3px;
-	border: 1px solid #337c10;
+	border: 1px solid #f9bf3b;
 	outline-offset: 2px;
-	outline: 1px solid #337c10;
+	outline: 1px solid #f9bf3b;
 	border-radius: 0;
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
@@ -2399,18 +2382,18 @@ ul.contact-info-widget li p{
 	margin-bottom: 30px;
 }
 .as-btn-404-back-home{
-	background-color: rgb(160, 206, 78);
+	background-color: rgb(248, 191, 59);
 	border: 1px solid;
 	padding: 7px 20px;
 	display: inline-block;
 	outline-width: 1px;
 	outline-offset: 2px;
-	outline-color: rgb(160, 206, 78);
+	outline-color: rgb(248, 191, 59);
 	outline-style: solid;
 	color: #ffffff;
 	font-size: 13px;
 	font-weight: 800;
-	font-family: Open Sans;
+	font-family: Raleway;
 	letter-spacing: 2px;
 	-webkit-transition: all 700ms ease;
 	-moz-transition: all 700ms ease;
