@@ -47,8 +47,8 @@
         <div id="as-style-selection" class="as-closed">
             <h3 class="as-title-panel">OTHER DEMO</h3>
             <ul class="as-list-select-demo">
-                <li><a href="http://heli.chemisttheme.com/creative-onepage/" target="_blank"><img src="http://heli.chemisttheme.com/wp-content/uploads/2016/01/creative.jpg" alt="img-demo"></a><img src="http://heli.chemisttheme.com/wp-content/uploads/2016/01/creative.jpg" class="as-large-img-demo" alt="img-demo"></li>
-                <li><a href="http://heli.chemisttheme.com/business-one-page/" target="_blank"><img src="http://heli.chemisttheme.com/wp-content/uploads/2016/01/business.jpg" alt="img-demo"></a><img src="http://heli.chemisttheme.com/wp-content/uploads/2016/01/business.jpg" class="as-large-img-demo" alt="img-demo"></li>
+                <li><a href="http://heli.chemisttheme.com/creative-onepage/" target="_blank"><img src="http://heli.chemisttheme.com/wp-content/uploads/2016/01/demo-creative-1.jpg" alt="img-demo"></a><img src="http://heli.chemisttheme.com/wp-content/uploads/2016/01/demo-creative-1.jpg" class="as-large-img-demo" alt="img-demo"></li>
+                <li><a href="http://heli.chemisttheme.com/business-one-page/" target="_blank"><img src="http://heli.chemisttheme.com/wp-content/uploads/2016/01/demo-business-1.jpg" alt="img-demo"></a><img src="http://heli.chemisttheme.com/wp-content/uploads/2016/01/demo-business-1.jpg" class="as-large-img-demo" alt="img-demo"></li>
                  </ul>
             <div class="as-button-demo">
                 <a href="http://themeforest.net/item/anna-creative-multipurpose-wordpress-theme/11620730?ref=alenastudio" class="as-button-demo">PURCHASE NOW</a>
