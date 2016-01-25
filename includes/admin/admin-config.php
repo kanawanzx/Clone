@@ -928,7 +928,7 @@ $sections[] = array(
             'title'    => __('Header Background', AS_DOMAIN),
             'subtitle' => __('Header background with image, color, etc.', AS_DOMAIN),
             'default'  => array(
-                'background-color'      => '#ffffff',
+                'background-color'      => '#000',
                 'background-repeat'     => 'repeat',
                 'background-attachment' => '',
                 'background-position'   => '',
@@ -968,10 +968,10 @@ $sections[] = array(
             'subtitle'       => __('Select your custom font options for your main navigation menu.', AS_DOMAIN),
             'default'        => array(
                 'color'          => '#BABABA',
-                'font-family'    => 'Oswald',
-                'font-size'      => '32',
-                'font-weight'    => '400',
-                'letter-spacing' => '5',
+                'font-family'    => 'Open sans',
+                'font-size'      => '14',
+                'font-weight'    => '700',
+                'letter-spacing' => '',
             )
         ),
        
