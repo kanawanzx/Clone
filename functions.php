@@ -1,5 +1,5 @@
 <?php
-define('AS_DOMAIN', 'alenastudio');
+define('AS_DOMAIN', 'helistudio');
 define('TEMPLATEURL', get_template_directory_uri() );
 
 add_theme_support( "title-tag" );
@@ -100,9 +100,9 @@ function as_customize_excerpt( $limit ) {
 }
 
 /* ----------------------------------------------------------------------------------- */
-/* 	Main Anna Class */
+/* 	Main Heli Class */
 /* ----------------------------------------------------------------------------------- */
-class Anna extends AE_Base {
+class Heli extends AE_Base {
 	function __construct() {
 		/**
 		 *  all theme actions go here
@@ -428,5 +428,5 @@ class Anna extends AE_Base {
 		wp_send_json( $response );
 	}
 }
-//call new Anna Class
-new Anna('Copyright® 2014 ElenaStudio!');
+//call new Heli Class
+new Heli('Copyright® 2014 ElenaStudio!');

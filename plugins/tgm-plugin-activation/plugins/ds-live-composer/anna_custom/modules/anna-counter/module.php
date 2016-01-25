@@ -1,5 +1,5 @@
 <?php
-class Anna_Counter_Module extends DSLC_Module
+class Heli_Counter_Module extends DSLC_Module
 {
 	// Module Attributes
 	var $module_id;
@@ -9,7 +9,7 @@ class Anna_Counter_Module extends DSLC_Module
 
 	function __construct() {
 
-		$this->module_id = 'Anna_Counter_Module';
+		$this->module_id = 'Heli_Counter_Module';
 		$this->module_title = __( 'Counter Number', 'dslc_string' );
 		$this->module_icon = 'bar-chart';
 		$this->module_category = 'as - Counter';

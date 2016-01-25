@@ -1,6 +1,6 @@
 <?php
 
-class Anna_TP_Meta extends DSLC_Module
+class Heli_TP_Meta extends DSLC_Module
 {
 
     var $module_id;
@@ -11,7 +11,7 @@ class Anna_TP_Meta extends DSLC_Module
     function __construct()
     {
 
-        $this->module_id       = 'Anna_TP_Meta';
+        $this->module_id       = 'Heli_TP_Meta';
         $this->module_title    = 'Meta';
         $this->module_icon     = 'info';
         $this->module_category = 'single';

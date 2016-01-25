@@ -1,6 +1,6 @@
 <?php
 
-class Anna_Pricing extends DSLC_Module
+class Heli_Pricing extends DSLC_Module
 {
 
     var $module_id;
@@ -12,7 +12,7 @@ class Anna_Pricing extends DSLC_Module
     function __construct()
     {
 
-        $this->module_id       = 'Anna_Pricing';
+        $this->module_id       = 'Heli_Pricing';
         $this->module_title    = __('Pricing Table', 'dslc_string');
         $this->module_icon     = 'dollar';
         $this->module_category = 'as - Pricing';
@@ -1026,7 +1026,7 @@ class Anna_Pricing extends DSLC_Module
             array(
                 'label'                 => __( 'BG Color', 'dslc_string' ),
                 'id'                    => 'as_button_css_bg_color',
-                'std'                   => '#f9bf3b',
+                'std'                   => '#1abcbc',
                 'type'                  => 'color',
                 'refresh_on_change'     => false,
                 'affect_on_change_el'   => '.as-button-pricing a',
@@ -1048,7 +1048,7 @@ class Anna_Pricing extends DSLC_Module
             array(
                 'label'                 => __( 'Border Color', 'dslc_string' ),
                 'id'                    => 'as_button_css_border_color',
-                'std'                   => '#f9bf3b',
+                'std'                   => '#1abcbc',
                 'type'                  => 'color',
                 'refresh_on_change'     => false,
                 'affect_on_change_el'   => '.as-button-pricing a',
@@ -1228,7 +1228,7 @@ class Anna_Pricing extends DSLC_Module
             array(
                 'label'                 => __( 'Out Line Color', 'dslc_string' ),
                 'id'                    => 'as_button_out_line_color',
-                'std'                   => '#f9bf3b',
+                'std'                   => '#1abcbc',
                 'type'                  => 'color',
                 'refresh_on_change'     => false,
                 'affect_on_change_el'   => '.as-button-pricing a',

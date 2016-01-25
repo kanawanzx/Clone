@@ -1,5 +1,5 @@
 <?php
-class Anna_Testimonials_Simple extends DSLC_Module {
+class Heli_Testimonials_Simple extends DSLC_Module {
 
 	var $module_id;
 	var $module_title;
@@ -8,7 +8,7 @@ class Anna_Testimonials_Simple extends DSLC_Module {
 
 	function __construct() {
 
-		$this->module_id = 'Anna_Testimonials_Simple';
+		$this->module_id = 'Heli_Testimonials_Simple';
 		$this->module_title = __( 'Testimonials Simple', 'dslc_string' );
 		$this->module_icon = 'quote-right';
 		$this->module_category = 'as - Testimonials';

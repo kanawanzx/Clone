@@ -126,8 +126,8 @@ $sections = array();
 // Main Setting -------------------------------------------------------------------------- >
 $sections[] = array(
     'title'      => __('General Setting', AS_DOMAIN),
-    'header'     => __('Welcome to Anna Theme Options Framework.', AS_DOMAIN),
-    'desc'       => __('Welcome to Anna Theme Options Framework.', AS_DOMAIN),
+    'header'     => __('Welcome to Heli Theme Options Framework.', AS_DOMAIN),
+    'desc'       => __('Welcome to Heli Theme Options Framework.', AS_DOMAIN),
     'icon_class' => 'el-icon-large',
     'icon'       => 'el-icon-cog',
     'submenu'    => true,
@@ -202,7 +202,7 @@ $sections[] = array(
             'type'     => 'media',
             'title'    => __('Logo', AS_DOMAIN),
             'default'  => array(
-                'url' => get_template_directory_uri() . '/img/logo-anna-2.png'),
+                'url' => get_template_directory_uri() . '/img/logo-heli-2.png'),
             'subtitle' => __('Upload your custom site logo.', AS_DOMAIN),
         ),
         array(
@@ -550,7 +550,7 @@ $sections[] = array(
             'transparent' => false,
             'type'        => 'color',
             'title'       => __('Main Color', AS_DOMAIN),
-            'default'     => '#f9bf3b',
+            'default'     => '#1abcbc',
             'subtitle'    => __('Select your custom main color.', AS_DOMAIN),
         ),
         array(
@@ -558,7 +558,7 @@ $sections[] = array(
             'transparent' => false,
             'type'        => 'color',
             'title'       => __('Link Color', AS_DOMAIN),
-            'default'     => '#f9bf3b',
+            'default'     => '#1abcbc',
             'subtitle'    => __('Select your custom link color.', AS_DOMAIN),
         ),
         array(
@@ -566,7 +566,7 @@ $sections[] = array(
             'transparent' => false,
             'type'        => 'color',
             'title'       => __('Link Color Hover', AS_DOMAIN),
-            'default'     => '#f9bf3b',
+            'default'     => '#1abcbc',
             'subtitle'    => __('Select your custom link color.', AS_DOMAIN),
         ),
     )
@@ -705,7 +705,7 @@ $sections[] = array(
             'type'           => 'editor',
             'title'          => __('Infomation Phone & Email', AS_DOMAIN),
             'subtitle'       => __('Enter your content Infomation Phone & Email', AS_DOMAIN),
-            'default'        => '+ 84 123 456 789<br>info@alenastudio.com',
+            'default'        => '+ 84 123 456 789<br>info@helistudio.com',
             'editor_options' => '',
             'required'       => array(
                 'as_option_check_infomation_phone_header_2',
@@ -1161,8 +1161,8 @@ $sections[] = array(
                 '.as-menu-main li a'),
             'default'  => array(
                 'regular' => '#929194',
-                'hover'   => '#f9bf3b',
-                'active'  => '#f9bf3b',
+                'hover'   => '#1abcbc',
+                'active'  => '#1abcbc',
             ),
             'required' => array(
                 'as_option_check_sidenav',
@@ -1686,7 +1686,7 @@ $sections[] = array(
                 'letter-spacing' => '2px',
                 'text-transform' => 'uppercase',
                 'line-height'    => '105px',
-                'color'          => '#f9bf3b',
+                'color'          => '#1abcbc',
                 'units'          => 'px',
             ),
         ),
@@ -1726,7 +1726,7 @@ $sections[] = array(
                 'letter-spacing' => '0px',
                 'text-transform' => 'uppercase',
                 'line-height'    => '32px',
-                'color'          => '#f9bf3b',
+                'color'          => '#1abcbc',
                 'units'          => 'px',
             ),
         ),
@@ -1882,7 +1882,7 @@ $sections[] = array(
             'type'     => 'media',
             'title'    => __('Your Logo for Footer', AS_DOMAIN),
             'default'  => array(
-                'url' => get_template_directory_uri() . '/img/logo-anna-1.png'),
+                'url' => get_template_directory_uri() . '/img/logo-heli-1.png'),
             'subtitle' => __('Upload your logo for footer.', AS_DOMAIN),
             'required' => array(
                 'as_option_check_logo_footer_1',
@@ -1941,8 +1941,8 @@ $sections[] = array(
                 '#as-footer-1 .as-menu-footer-1 li a'),
             'default'  => array(
                 'regular' => '#D1D1D1',
-                'hover'   => '#f9bf3b',
-                'active'  => '#f9bf3b',
+                'hover'   => '#1abcbc',
+                'active'  => '#1abcbc',
             ),
             'required' => array(
                 'as_option_check_menu_footer_1',
@@ -2055,7 +2055,7 @@ $sections[] = array(
             'type'     => 'media',
             'title'    => __('Your Logo for Footer', AS_DOMAIN),
             'default'  => array(
-                'url' => get_template_directory_uri() . '/img/logo-anna-1.png'),
+                'url' => get_template_directory_uri() . '/img/logo-heli-1.png'),
             'subtitle' => __('Upload your logo for footer.', AS_DOMAIN),
             'required' => array(
                 'as_option_check_logo_footer_2',
@@ -2186,8 +2186,8 @@ $sections[] = array(
                 '#as-footer-2 a'),
             'default'  => array(
                 'regular' => '#D1D1D1',
-                'hover'   => '#f9bf3b',
-                'active'  => '#f9bf3b',
+                'hover'   => '#1abcbc',
+                'active'  => '#1abcbc',
             ),
         ),
         array(
@@ -2295,8 +2295,8 @@ $sections[] = array(
                 '.as-menu-footer-2 li a'),
             'default'  => array(
                 'regular' => '#797979',
-                'hover'   => '#f9bf3b',
-                'active'  => '#f9bf3b',
+                'hover'   => '#1abcbc',
+                'active'  => '#1abcbc',
             ),
             'required' => array(
                 'as_option_check_menu_copyright_footer_2',
@@ -2481,23 +2481,23 @@ $sections[] = array(
         array(
             'id'       => 'meta_description',
             'type'     => 'textarea',
-            'default'  => 'Anna, studio, theme, responsive, premium theme',
+            'default'  => 'Heli, studio, theme, responsive, premium theme',
             'title'    => __('Add your meta description', AS_DOMAIN),
-            'subtitle' => __('Ex: Anna, studio, theme ... ', AS_DOMAIN),
+            'subtitle' => __('Ex: Heli, studio, theme ... ', AS_DOMAIN),
         ),
         array(
             'id'       => 'meta_keyword',
             'type'     => 'textarea',
-            'default'  => 'Anna, studio, theme, responsive, premium theme',
+            'default'  => 'Heli, studio, theme, responsive, premium theme',
             'title'    => __('Add your meta keyword', AS_DOMAIN),
-            'subtitle' => __('Ex: Anna, studio, theme... ', AS_DOMAIN),
+            'subtitle' => __('Ex: Heli, studio, theme... ', AS_DOMAIN),
         ),
         array(
             'id'       => 'meta_author',
             'type'     => 'textarea',
-            'default'  => 'Anna, studio, theme, responsive, premium theme',
+            'default'  => 'Heli, studio, theme, responsive, premium theme',
             'title'    => __('Add your meta author', AS_DOMAIN),
-            'subtitle' => __('Ex: Anna, studio, theme ... ', AS_DOMAIN),
+            'subtitle' => __('Ex: Heli, studio, theme ... ', AS_DOMAIN),
         ),
     )
 );

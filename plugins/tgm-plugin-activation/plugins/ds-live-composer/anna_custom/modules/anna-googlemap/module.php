@@ -1,6 +1,6 @@
 <?php
 
-class Anna_Google_Map extends DSLC_Module
+class Heli_Google_Map extends DSLC_Module
 {
 	// Module Attributes
 	var $module_id;
@@ -10,7 +10,7 @@ class Anna_Google_Map extends DSLC_Module
 
 	function __construct() {
 
-		$this->module_id = 'Anna_Google_Map';
+		$this->module_id = 'Heli_Google_Map';
 		$this->module_title = __( 'Google Map', 'dslc_string' );
 		$this->module_icon = 'globe';
 		$this->module_category = 'as - Google Map';

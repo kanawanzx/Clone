@@ -1,6 +1,6 @@
 <?php
 
-class Anna_Tabs extends DSLC_Module {
+class Heli_Tabs extends DSLC_Module {
 
 	var $module_id;
 	var $module_title;
@@ -10,8 +10,8 @@ class Anna_Tabs extends DSLC_Module {
 
 	function __construct() {
 
-		$this->module_id = 'Anna_Tabs';
-		$this->module_title = __( 'Anna Tabs', 'dslc_string' );
+		$this->module_id = 'Heli_Tabs';
+		$this->module_title = __( 'Heli Tabs', 'dslc_string' );
 		$this->module_icon = 'list';
 		$this->module_category = 'as - element';
 		$this->handle_like = 'tabs';

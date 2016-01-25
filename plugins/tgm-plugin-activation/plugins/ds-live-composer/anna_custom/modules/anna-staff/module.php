@@ -1,9 +1,9 @@
 <?php
 
 if ( dslc_is_module_active( 'DSLC_Staff' ) )
-	include DS_LIVE_COMPOSER_ABS . '/anna_custom/modules/anna-staff/functions.php';
+	include DS_LIVE_COMPOSER_ABS . '/heli_custom/modules/heli-staff/functions.php';
 
-class Anna_Staff extends DSLC_Module {
+class Heli_Staff extends DSLC_Module {
 
 	var $module_id;
 	var $module_title;
@@ -12,7 +12,7 @@ class Anna_Staff extends DSLC_Module {
 
 	function __construct() {
 
-		$this->module_id = 'Anna_Staff';
+		$this->module_id = 'Heli_Staff';
 		$this->module_title = __( 'Staff Simple', 'dslc_string' );
 		$this->module_icon = 'group';
 		$this->module_category = 'as - Staff';

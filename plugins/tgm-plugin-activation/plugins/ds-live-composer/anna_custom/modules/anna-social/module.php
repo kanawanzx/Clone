@@ -1,6 +1,6 @@
 <?php
 
-class Anna_Social extends DSLC_Module
+class Heli_Social extends DSLC_Module
 {
 
     var $module_id;
@@ -11,7 +11,7 @@ class Anna_Social extends DSLC_Module
     function __construct()
     {
 
-        $this->module_id       = 'Anna_Social';
+        $this->module_id       = 'Heli_Social';
         $this->module_title    = 'Custom Social';
         $this->module_icon     = 'share';
         $this->module_category = 'as - Social Icon';

@@ -1,7 +1,7 @@
 <?php
-if (dslc_is_module_active('Anna_Projects'))
-	include DS_LIVE_COMPOSER_ABS . '/anna_custom/modules/anna-projects/functions.php';
-class Anna_Projects extends DSLC_Module{
+if (dslc_is_module_active('Heli_Projects'))
+	include DS_LIVE_COMPOSER_ABS . '/heli_custom/modules/heli-projects/functions.php';
+class Heli_Projects extends DSLC_Module{
 	var $module_id;
 	var $module_title;
 	var $module_icon;
@@ -9,7 +9,7 @@ class Anna_Projects extends DSLC_Module{
 
 	function __construct() {
 
-		$this->module_id = 'Anna_Projects';
+		$this->module_id = 'Heli_Projects';
 		$this->module_title = __( 'AS - Projects', 'dslc_string' );
 		$this->module_icon = 'th';
 		$this->module_category = 'as - posts';

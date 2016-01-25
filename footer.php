@@ -4,8 +4,8 @@
  *
  * Contains footer content and the closing of the #main and #page div elements.
  *
- * @package Anna
- * @since Anna Theme 1.0
+ * @package Heli
+ * @since Heli Theme 1.0
  */
 ?>
 <?php

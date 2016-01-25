@@ -1,6 +1,6 @@
 <?php
 
-class Anna_SubscriptionBox extends DSLC_Module
+class Heli_SubscriptionBox extends DSLC_Module
 {
 	// Module Attributes
 	var $module_id;
@@ -10,7 +10,7 @@ class Anna_SubscriptionBox extends DSLC_Module
 
 	function __construct() {
 
-		$this->module_id = 'Anna_SubscriptionBox';
+		$this->module_id = 'Heli_SubscriptionBox';
 		$this->module_title = __( 'Mailchimp Subscription', 'dslc_string' );
 		$this->module_icon = 'envelope-alt';
 		$this->module_category = 'as - Subscription';
@@ -26,7 +26,7 @@ class Anna_SubscriptionBox extends DSLC_Module
             array(
                 'label' => __( 'MailChimp URL', 'dslc_string' ),
                 'id' => 'as_mailchimp_url',
-                'std' => 'http://alenastudio.us10.list-manage.com/subscribe?u=f2e21eb858ed6d4d505e8e877&id=ffdd9414e1',
+                'std' => 'http://helistudio.us10.list-manage.com/subscribe?u=f2e21eb858ed6d4d505e8e877&id=ffdd9414e1',
                 'type' => 'text',
 				'help' => 'Right Click -> Open in new tab: <a href="https://www.screenr.com/kIXN" target="_blank">How to find MailChimp URL?</a>'
             ),
@@ -245,7 +245,7 @@ class Anna_SubscriptionBox extends DSLC_Module
             array(
                 'label'                 => __( 'BG Color', 'dslc_string' ),
                 'id'                    => 'as_button_css_newsletter_bg_color',
-                'std'                   => '#f9bf3b',
+                'std'                   => '#1abcbc',
                 'type'                  => 'color',
                 'refresh_on_change'     => false,
                 'affect_on_change_el'   => '.as_mailchimp_form .as_button_submit_mailchimp',
@@ -267,7 +267,7 @@ class Anna_SubscriptionBox extends DSLC_Module
             array(
                 'label'                 => __( 'Border Color', 'dslc_string' ),
                 'id'                    => 'as_button_css_newsletter_border_color',
-                'std'                   => '#f9bf3b',
+                'std'                   => '#1abcbc',
                 'type'                  => 'color',
                 'refresh_on_change'     => false,
                 'affect_on_change_el'   => '.as_mailchimp_form .as_button_submit_mailchimp',
@@ -414,7 +414,7 @@ class Anna_SubscriptionBox extends DSLC_Module
             array(
                 'label'                 => __( 'Out Line Color', 'dslc_string' ),
                 'id'                    => 'as_button_newsletter_out_line_color',
-                'std'                   => '#f9bf3b',
+                'std'                   => '#1abcbc',
                 'type'                  => 'color',
                 'refresh_on_change'     => false,
                 'affect_on_change_el'   => '.as_mailchimp_form .as_button_submit_mailchimp',

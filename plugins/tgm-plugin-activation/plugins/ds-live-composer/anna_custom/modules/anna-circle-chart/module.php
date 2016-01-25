@@ -1,6 +1,6 @@
 <?php
 
-class Anna_Circle_Chart_Module extends DSLC_Module
+class Heli_Circle_Chart_Module extends DSLC_Module
 {
 	// Module Attributes
 	var $module_id;
@@ -10,7 +10,7 @@ class Anna_Circle_Chart_Module extends DSLC_Module
 
 	function __construct() {
 
-		$this->module_id = 'Anna_Circle_Chart_Module';
+		$this->module_id = 'Heli_Circle_Chart_Module';
 		$this->module_title = __( 'Circle Chart', 'dslc_string' );
 		$this->module_icon = 'circle-blank';
 		$this->module_category = 'as - Counter';

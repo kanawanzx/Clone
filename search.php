@@ -2,8 +2,8 @@
 /**
  * Template Name: Search Page
  *
- * @package Anna
- * @since Anna Theme 1.0
+ * @package Heli
+ * @since Heli Theme 1.0
  */
 global $wp_query, $wp_rewrite;
 get_header();
@@ -54,7 +54,7 @@ else {
                 else:
                     ?>
                     <div class="search-error">
-                        <p style="font-size:30px;"><?php esc_html_e('Sorry there are no posts to display, oh man!', 'alenastudio') ?></p>
+                        <p style="font-size:30px;"><?php esc_html_e('Sorry there are no posts to display, oh man!', 'helistudio') ?></p>
                     </div>
                 <?php endif; ?>
                 <!-- Pagination -->

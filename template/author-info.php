@@ -1,12 +1,12 @@
 <?php
 /**
- * Anna the author info in single blog.
+ * Heli the author info in single blog.
  *
  * Sets up author info.
  *
  * @package WordPress
- * @subpackage Anna
- * @since Anna 1.0
+ * @subpackage Heli
+ * @since Heli 1.0
  */
 ?>
 <div id="as-about-author">

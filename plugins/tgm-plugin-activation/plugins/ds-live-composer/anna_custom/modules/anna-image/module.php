@@ -1,6 +1,6 @@
 <?php
 
-class Anna_Image extends DSLC_Module
+class Heli_Image extends DSLC_Module
 {
 
     var $module_id;
@@ -10,7 +10,7 @@ class Anna_Image extends DSLC_Module
 
 	function __construct() {
 
-		$this->module_id = 'Anna_Image';
+		$this->module_id = 'Heli_Image';
 		$this->module_title = __( 'AS - Image', 'dslc_string' );
 		$this->module_icon = 'picture';
 		$this->module_category = 'as - elements';

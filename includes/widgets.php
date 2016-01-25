@@ -3,8 +3,8 @@
  * Class AS_Flickr_Widget
  * create flickr widget
  *
- * @package 	Anna
- * @author   	Alena Studio
+ * @package 	Heli
+ * @author   	Heli Studio
  */
  
 /*-----------------------------------------------------------------------------------*/
@@ -82,8 +82,8 @@ class AS_Flickr_Widget extends WP_Widget {
  * AS_Social_Info_Widget
  * create social info widget
  *
- * @package 	Anna
- * @author   	alenastudio
+ * @package 	Heli
+ * @author   	helistudio
  */
 
 class AS_Social_Info_Widget extends WP_Widget {
@@ -395,8 +395,8 @@ class AS_Contact_Info_Widget extends WP_Widget {
  * Class AS_Recent_Posts_Widget
  * create recent posts widget
  *
- * @package 	Anna
- * @author   	alenastudio
+ * @package 	Heli
+ * @author   	helistudio
  */
  
 /*-----------------------------------------------------------------------------------*/

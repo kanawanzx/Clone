@@ -1,6 +1,6 @@
 <?php
 
-class Anna_Info_Box_2 extends DSLC_Module {
+class Heli_Info_Box_2 extends DSLC_Module {
 
 	var $module_id;
 	var $module_title;
@@ -9,7 +9,7 @@ class Anna_Info_Box_2 extends DSLC_Module {
 
 	function __construct() {
 
-		$this->module_id = 'Anna_Info_Box_2';
+		$this->module_id = 'Heli_Info_Box_2';
 		$this->module_title = __( 'Info Box 2', 'dslc_string' );
 		$this->module_icon = 'info';
 		$this->module_category = 'as - Info Box';

@@ -1,6 +1,6 @@
 <?php
 
-class Anna_Button extends DSLC_Module
+class Heli_Button extends DSLC_Module
 {
 
     var $module_id;
@@ -10,7 +10,7 @@ class Anna_Button extends DSLC_Module
 
 	function __construct() {
 
-		$this->module_id = 'Anna_Button';
+		$this->module_id = 'Heli_Button';
 		$this->module_title = __( 'Button Simple', 'dslc_string' );
 		$this->module_icon = 'link';
 		$this->module_category = 'as - Button';
@@ -90,7 +90,7 @@ class Anna_Button extends DSLC_Module
             array(
                 'label'                 => __( 'BG Color', 'dslc_string' ),
                 'id'                    => 'as_button_css_bg_color',
-                'std'                   => '#f9bf3b',
+                'std'                   => '#1abcbc',
                 'type'                  => 'color',
                 'refresh_on_change'     => false,
                 'affect_on_change_el'   => '.as-button-lc a',
@@ -110,7 +110,7 @@ class Anna_Button extends DSLC_Module
             array(
                 'label'                 => __( 'Border Color', 'dslc_string' ),
                 'id'                    => 'as_button_css_border_color',
-                'std'                   => '#f9bf3b',
+                'std'                   => '#1abcbc',
                 'type'                  => 'color',
                 'refresh_on_change'     => false,
                 'affect_on_change_el'   => '.as-button-lc a',
@@ -268,7 +268,7 @@ class Anna_Button extends DSLC_Module
             array(
                 'label'                 => __( 'Out Line Color', 'dslc_string' ),
                 'id'                    => 'as_button_out_line_color',
-                'std'                   => '#f9bf3b',
+                'std'                   => '#1abcbc',
                 'type'                  => 'color',
                 'refresh_on_change'     => false,
                 'affect_on_change_el'   => '.as-button-lc a',

@@ -1,6 +1,6 @@
 <?php
 
-class Anna_WooCommerce_Products extends DSLC_Module
+class Heli_WooCommerce_Products extends DSLC_Module
 {
 
     var $module_id;
@@ -10,8 +10,8 @@ class Anna_WooCommerce_Products extends DSLC_Module
 
     function __construct()
     {
-        $this->module_id       = 'Anna_WooCommerce_Products';
-        $this->module_title    = __('Anna Products ( Woo )', 'dslc_string');
+        $this->module_id       = 'Heli_WooCommerce_Products';
+        $this->module_title    = __('Heli Products ( Woo )', 'dslc_string');
         $this->module_icon     = 'dollar';
         $this->module_category = 'as - woocommerce';
     }

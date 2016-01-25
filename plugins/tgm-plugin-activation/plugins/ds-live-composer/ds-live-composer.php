@@ -213,6 +213,6 @@
 	//new WPUpdatesPluginUpdater_390( 'http://wp-updates.com/api/2/plugin', plugin_basename(__FILE__));
 
 	/**
-	* Anna Custom
+	* Heli Custom
 	*/
-    	include DS_LIVE_COMPOSER_ABS . '/anna_custom/anna_custom.php';
+    	include DS_LIVE_COMPOSER_ABS . '/heli_custom/heli_custom.php';

@@ -1,6 +1,6 @@
 <?php
 
-class Anna_Related_Posts extends DSLC_Module
+class Heli_Related_Posts extends DSLC_Module
 {
 
     var $module_id;
@@ -11,7 +11,7 @@ class Anna_Related_Posts extends DSLC_Module
     function __construct()
     {
 
-        $this->module_id       = 'Anna_Related_Posts';
+        $this->module_id       = 'Heli_Related_Posts';
         $this->module_title    = __('Custom Related Posts', 'dslc_string');
         $this->module_icon     = 'pencil';
         $this->module_category = 'as - posts';

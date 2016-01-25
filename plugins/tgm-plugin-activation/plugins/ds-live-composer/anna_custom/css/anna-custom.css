@@ -1780,15 +1780,15 @@ as_button_submit_mailchimp{
 	.border-none-right .dslc-partner-thumb .dslc-partner-thumb, .border-none-left .dslc-partner-thumb .dslc-partner-thumb, .border-none-top .dslc-partner-thumb .dslc-partner-thumb, .border-none-bottom .dslc-partner-thumb .dslc-partner-thumb{
 		border: none !important;
 	}
-	.dslc-module-Anna_Info_Box .dslc-info-box-image{
+	.dslc-module-Heli_Info_Box .dslc-info-box-image{
 		float:none;
 	}
-	.dslc-module-Anna_Info_Box .dslc-info-box-image-inner{
+	.dslc-module-Heli_Info_Box .dslc-info-box-image-inner{
 		display: block;
 		margin: 0 auto;
 		text-align: center;
 	}
-	.dslc-module-Anna_Info_Box .dslc-info-box-main{
+	.dslc-module-Heli_Info_Box .dslc-info-box-main{
 		text-align: center;
 	}
     .as-vertical-tabs .dslc-tabs-nav, .as-vertical-tabs .dslc-tabs-content{

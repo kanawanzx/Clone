@@ -1,6 +1,6 @@
 <?php
 
-class Anna_Info_Box_3 extends DSLC_Module {
+class Heli_Info_Box_3 extends DSLC_Module {
 
 	var $module_id;
 	var $module_title;
@@ -9,7 +9,7 @@ class Anna_Info_Box_3 extends DSLC_Module {
 
 	function __construct() {
 
-		$this->module_id = 'Anna_Info_Box_3';
+		$this->module_id = 'Heli_Info_Box_3';
 		$this->module_title = __( 'Info Box 3', 'dslc_string' );
 		$this->module_icon = 'info';
 		$this->module_category = 'as - Info Box';
@@ -409,7 +409,7 @@ class Anna_Info_Box_3 extends DSLC_Module {
 			array(
 				'label' => __( 'BG Color', 'dslc_string' ),
 				'id' => 'css_icon_bg_color',
-				'std' => '#f9bf3b',
+				'std' => '#1abcbc',
 				'type' => 'color',
 				'refresh_on_change' => false,
 				'affect_on_change_el' => '.dslc-info-box-3-image-inner .as-bg-icon-info-box-3',
@@ -420,7 +420,7 @@ class Anna_Info_Box_3 extends DSLC_Module {
 			array(
 				'label' => __( 'BG Color Hover', 'dslc_string' ),
 				'id' => 'css_icon_bg_color_hover',
-				'std' => '#f9bf3b',
+				'std' => '#1abcbc',
 				'type' => 'color',
 				'refresh_on_change' => false,
 				'affect_on_change_el' => '.dslc-info-box-3:hover .dslc-info-box-3-image-inner .as-bg-icon-info-box-3',
@@ -909,7 +909,7 @@ class Anna_Info_Box_3 extends DSLC_Module {
 			array(
 				'label' => __( 'BG Color', 'dslc_string' ),
 				'id' => 'css_button_bg_color',
-				'std' => '#f9bf3b',
+				'std' => '#1abcbc',
 				'type' => 'color',
 				'refresh_on_change' => false,
 				'affect_on_change_el' => '.dslc-info-box-3-button a',
@@ -1168,7 +1168,7 @@ class Anna_Info_Box_3 extends DSLC_Module {
 			array(
 				'label' => __( 'BG Color', 'dslc_string' ),
 				'id' => 'css_button_2_bg_color',
-				'std' => '#f9bf3b',
+				'std' => '#1abcbc',
 				'type' => 'color',
 				'refresh_on_change' => false,
 				'affect_on_change_el' => '.dslc-info-box-3-button a.dslc-secondary',

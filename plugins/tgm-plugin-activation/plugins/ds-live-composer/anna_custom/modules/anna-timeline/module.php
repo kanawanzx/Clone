@@ -1,6 +1,6 @@
 <?php
 
-class Anna_Timeline extends DSLC_Module
+class Heli_Timeline extends DSLC_Module
 {
 
     var $module_id;
@@ -12,7 +12,7 @@ class Anna_Timeline extends DSLC_Module
     function __construct()
     {
 
-        $this->module_id       = 'Anna_Timeline';
+        $this->module_id       = 'Heli_Timeline';
         $this->module_title    = __('Timeline', 'dslc_string');
         $this->module_icon     = 'history';
         $this->module_category = 'as - Timeline';
@@ -60,8 +60,8 @@ class Anna_Timeline extends DSLC_Module
                 'section'    => 'styling',
             ),
             array(
-                'label'      => __('(hidden) Anna Timeline Date', 'dslc_string'),
-                'id'         => 'anna_timeline_date',
+                'label'      => __('(hidden) Heli Timeline Date', 'dslc_string'),
+                'id'         => 'heli_timeline_date',
                 'std'        => 'Click to Edit',
                 'type'       => 'textarea',
                 'visibility' => 'hidden',
@@ -995,7 +995,7 @@ class Anna_Timeline extends DSLC_Module
         /* Module output stars here */
 
         $accordion_nav      = explode('(dslc_sep)', trim($options['accordion_nav']));
-        $accordion_date     = explode('(dslc_sep)', trim($options['anna_timeline_date']));
+        $accordion_date     = explode('(dslc_sep)', trim($options['heli_timeline_date']));
         if (empty($options['accordion_content']))
             $accordion_contents = false;
         else

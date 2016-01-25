@@ -4,7 +4,7 @@
  *
  * Displays all of the <head> section and everything up till <div id="main">
  *
- * @author : Alena Studio
+ * @author : Heli Studio
  */
 ?><!DOCTYPE html>
 <!--[if IE 7]>
@@ -56,13 +56,13 @@
         <div id="as-style-selection" class="as-closed">
             <h3 class="as-title-panel">OTHER DEMO</h3>
             <ul class="as-list-select-demo">
-                <li><a href="http://alenastudio.com/anna/creative" target="_blank"><img src="http://document.alenastudio.com/anna/img-demo-doc/demo-1.jpg" alt="img-demo"></a><img src="http://document.alenastudio.com/anna/img-demo-doc/demo-1.jpg" class="as-large-img-demo" alt="img-demo"></li>
-                <li><a href="http://alenastudio.com/anna/portfolio" target="_blank"><img src="http://document.alenastudio.com/anna/img-demo-doc/demo-2.jpg" alt="img-demo"></a><img src="http://document.alenastudio.com/anna/img-demo-doc/demo-2.jpg" class="as-large-img-demo" alt="img-demo"></li>
-                <li><a href="http://alenastudio.com/anna/creative-onepage" target="_blank"><img src="http://document.alenastudio.com/anna/img-demo-doc/demo-3.jpg" alt="img-demo"></a><img src="http://document.alenastudio.com/anna/img-demo-doc/demo-3.jpg" class="as-large-img-demo" alt="img-demo"></li>
-                <li><a href="http://alenastudio.com/anna/business-onepage" target="_blank"><img src="http://document.alenastudio.com/anna/img-demo-doc/demo-4.jpg" alt="img-demo"></a><img src="http://document.alenastudio.com/anna/img-demo-doc/demo-4.jpg" class="as-large-img-demo" alt="img-demo"></li>
+                <li><a href="http://helistudio.com/heli/creative" target="_blank"><img src="http://document.helistudio.com/heli/img-demo-doc/demo-1.jpg" alt="img-demo"></a><img src="http://document.helistudio.com/heli/img-demo-doc/demo-1.jpg" class="as-large-img-demo" alt="img-demo"></li>
+                <li><a href="http://helistudio.com/heli/portfolio" target="_blank"><img src="http://document.helistudio.com/heli/img-demo-doc/demo-2.jpg" alt="img-demo"></a><img src="http://document.helistudio.com/heli/img-demo-doc/demo-2.jpg" class="as-large-img-demo" alt="img-demo"></li>
+                <li><a href="http://helistudio.com/heli/creative-onepage" target="_blank"><img src="http://document.helistudio.com/heli/img-demo-doc/demo-3.jpg" alt="img-demo"></a><img src="http://document.helistudio.com/heli/img-demo-doc/demo-3.jpg" class="as-large-img-demo" alt="img-demo"></li>
+                <li><a href="http://helistudio.com/heli/business-onepage" target="_blank"><img src="http://document.helistudio.com/heli/img-demo-doc/demo-4.jpg" alt="img-demo"></a><img src="http://document.helistudio.com/heli/img-demo-doc/demo-4.jpg" class="as-large-img-demo" alt="img-demo"></li>
             </ul>
             <div class="as-button-demo">
-                <a href="http://themeforest.net/item/anna-creative-multipurpose-wordpress-theme/11620730?ref=alenastudio" class="as-button-demo">PURCHASE NOW</a>
+                <a href="http://themeforest.net/item/heli-creative-multipurpose-wordpress-theme/11620730?ref=helistudio" class="as-button-demo">PURCHASE NOW</a>
             </div>
             <div id="as-toggle-section"><span class="dslc-icon dslc-icon-cog"></span></div>
         </div>

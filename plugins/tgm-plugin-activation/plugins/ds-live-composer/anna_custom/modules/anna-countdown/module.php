@@ -1,6 +1,6 @@
 <?php
 
-class Anna_Countdown extends DSLC_Module
+class Heli_Countdown extends DSLC_Module
 {
 	// Module Attributes
 	var $module_id;
@@ -10,8 +10,8 @@ class Anna_Countdown extends DSLC_Module
 
 	function __construct() {
 
-		$this->module_id = 'Anna_Countdown';
-		$this->module_title = __( 'Anna Countdown', 'dslc_string' );
+		$this->module_id = 'Heli_Countdown';
+		$this->module_title = __( 'Heli Countdown', 'dslc_string' );
 		$this->module_icon = 'envelope-alt';
 		$this->module_category = 'as - Countdown';
 
@@ -84,7 +84,7 @@ class Anna_Countdown extends DSLC_Module
             array(
                 'label'                 => __( 'Out Line Color', 'dslc_string' ),
                 'id'                    => 'as_button_newsletter_out_line_color',
-                'std'                   => '#f9bf3b',
+                'std'                   => '#1abcbc',
                 'type'                  => 'color',
                 'refresh_on_change'     => false,
                 'affect_on_change_el'   => '.as_mailchimp_form .as_button_submit_mailchimp',
