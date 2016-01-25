@@ -425,7 +425,7 @@ class Heli_Pricing extends DSLC_Module
             array(
                 'label'                 => __('BG Color', 'dslc_string'),
                 'id'                    => 'as_pricing_label_bg_color',
-                'std'                   => 'rgb(249, 191, 59)',
+                'std'                   => 'rgb(160, 206, 78)',
                 'type'                  => 'color',
                 'refresh_on_change'     => false,
                 'affect_on_change_el'   => '.as-pricing-label',

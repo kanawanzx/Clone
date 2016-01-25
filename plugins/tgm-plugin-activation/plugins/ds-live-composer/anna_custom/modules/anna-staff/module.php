@@ -591,7 +591,7 @@ class Heli_Staff extends DSLC_Module {
 			array(
 				'label' => __( 'Border Hover Color', 'dslc_string' ),
 				'id' => 'css_social_border_hover_color',
-				'std' => 'rgb(249, 191, 59)',
+				'std' => 'rgb(160, 206, 78)',
 				'type' => 'color',
 				'refresh_on_change' => false,
 				'affect_on_change_el' => '.as-staff-social-wrapper .as-staff-list-social a:hover',
@@ -726,7 +726,7 @@ class Heli_Staff extends DSLC_Module {
 			array(
 				'label' => __( 'Icon - Hover Color', 'dslc_string' ),
 				'id' => 'css_social_hover_color',
-				'std' => 'rgb(249, 191, 59)',
+				'std' => 'rgb(160, 206, 78)',
 				'type' => 'color',
 				'refresh_on_change' => false,
 				'affect_on_change_el' => '.as-staff-social-wrapper .as-staff-list-social a:hover span',

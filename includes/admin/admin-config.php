@@ -202,7 +202,7 @@ $sections[] = array(
             'type'     => 'media',
             'title'    => __('Logo', AS_DOMAIN),
             'default'  => array(
-                'url' => get_template_directory_uri() . '/img/logo-heli-2.png'),
+                'url' => get_template_directory_uri() . '/img/logo-heli.png'),
             'subtitle' => __('Upload your custom site logo.', AS_DOMAIN),
         ),
         array(
@@ -894,9 +894,9 @@ $sections[] = array(
             'subtitle' => __('Allow you to choose the padding you want.', AS_DOMAIN),
             'desc'     => __('', AS_DOMAIN),
             'default'  => array(
-                'padding-top'    => '40',
+                'padding-top'    => '0',
                 'padding-right'  => '0',
-                'padding-bottom' => '40',
+                'padding-bottom' => '0',
                 'padding-left'   => '0'
             )
         ),

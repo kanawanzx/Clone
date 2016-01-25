@@ -818,8 +818,8 @@ td .variations_button{ float: left; }
 	border-top: 3px solid;
 	color: #333;
 	min-width: 300px;
-	right: -30px;
-	top: 40px;
+	right: -70px;
+	bottom: -120px;
 	padding: 20px 0 !important;
 	visibility: hidden;
 	opacity: 0;
@@ -838,9 +838,12 @@ td .variations_button{ float: left; }
 	visibility: visible;
 	opacity: 1;
 	filter: alpha(opacity=100);
-	right: -70px;
+        bottom:-71px;
 	-webkit-transition-delay: 0.2s;
 	transition-delay: 0.2s;
+}
+.as-search-header-4 .as-icon-shopping:hover .widget_shopping_cart_content {
+        bottom:-102.5px;
 }
 .widget_shopping_cart_content ul.product_list_widget li{
 	border-bottom: 1px solid #ececec;
