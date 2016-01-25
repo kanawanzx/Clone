@@ -366,7 +366,7 @@ class Heli_Heading_Title_Module extends DSLC_Module
             array(
                 'label'                 => __('Font Family', 'dslc_string'),
                 'id'                    => 'as_css_title_font_family',
-                'std'                   => 'Raleway',
+                'std'                   => 'Oswald',
                 'type'                  => 'font',
                 'refresh_on_change'     => false,
                 'affect_on_change_el'   => '.as-heading-title .as-big-title-heading',

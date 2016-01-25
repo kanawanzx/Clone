@@ -323,7 +323,7 @@ class Heli_Pricing extends DSLC_Module
             array(
                 'label'                 => __('Font Family', 'dslc_string'),
                 'id'                    => 'as_pricing_css_title_font_family',
-                'std'                   => 'Raleway',
+                'std'                   => 'Oswald',
                 'type'                  => 'font',
                 'refresh_on_change'     => false,
                 'affect_on_change_el'   => '.as-pricing-title h3',
@@ -471,7 +471,7 @@ class Heli_Pricing extends DSLC_Module
             array(
                 'label'                 => __('Font Family', 'dslc_string'),
                 'id'                    => 'as_pricing_label_css_number_font_family',
-                'std'                   => 'Raleway',
+                'std'                   => 'Oswald',
                 'type'                  => 'font',
                 'refresh_on_change'     => false,
                 'affect_on_change_el'   => '.as-pricing-label span',
@@ -543,7 +543,7 @@ class Heli_Pricing extends DSLC_Module
             array(
                 'label'                 => __('Font Family', 'dslc_string'),
                 'id'                    => 'as_pricing_css_number_font_family',
-                'std'                   => 'Raleway',
+                'std'                   => 'Oswald',
                 'type'                  => 'font',
                 'refresh_on_change'     => false,
                 'affect_on_change_el'   => '.as-pricing-number',
@@ -659,7 +659,7 @@ class Heli_Pricing extends DSLC_Module
             array(
                 'label'                 => __('Font Family', 'dslc_string'),
                 'id'                    => 'as_pricing_css_currency_font_family',
-                'std'                   => 'Raleway',
+                'std'                   => 'Oswald',
                 'type'                  => 'font',
                 'refresh_on_change'     => false,
                 'affect_on_change_el'   => '.as-pricing-currency',
@@ -744,7 +744,7 @@ class Heli_Pricing extends DSLC_Module
             array(
                 'label'                 => __('Font Family', 'dslc_string'),
                 'id'                    => 'as_pricing_css_time_font_family',
-                'std'                   => 'Raleway',
+                'std'                   => 'Oswald',
                 'type'                  => 'font',
                 'refresh_on_change'     => false,
                 'affect_on_change_el'   => '.as-pricing-time',
@@ -906,7 +906,7 @@ class Heli_Pricing extends DSLC_Module
             array(
                 'label'                 => __('Font Family', 'dslc_string'),
                 'id'                    => 'as_pricing_css_option_font_family',
-                'std'                   => 'Raleway',
+                'std'                   => 'Oswald',
                 'type'                  => 'font',
                 'refresh_on_change'     => false,
                 'affect_on_change_el'   => '.as-list-pricing-option-wrapper li .dslc-accordion-header .dslc-accordion-title',
@@ -1332,7 +1332,7 @@ class Heli_Pricing extends DSLC_Module
             array(
                 'label'                 => __( 'Font Family', 'dslc_string' ),
                 'id'                    => 'as_button_css_button_font_family',
-                'std'                   => 'Raleway',
+                'std'                   => 'Oswald',
                 'type'                  => 'font',
                 'refresh_on_change'     => false,
                 'affect_on_change_el'   => '.as-button-pricing a',

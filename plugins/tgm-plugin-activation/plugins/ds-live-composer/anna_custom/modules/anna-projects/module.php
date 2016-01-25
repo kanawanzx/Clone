@@ -947,7 +947,7 @@ class Heli_Projects extends DSLC_Module{
 			array(
 				'label' => __( 'Font Family', 'dslc_string' ),
 				'id' => 'css_title_font_family',
-				'std' => 'Raleway',
+				'std' => 'Oswald',
 				'type' => 'font',
 				'refresh_on_change' => false,
 				'affect_on_change_el' => '.dslc-project-title h2,.dslc-project-title h2 a',
@@ -1554,7 +1554,7 @@ class Heli_Projects extends DSLC_Module{
 			array(
 				'label'                 => __( 'Font Family of Nav', 'dslc_string' ),
 				'id'                    => 'as_ajax_projects_nav_font_family',
-				'std'                   => 'Raleway',
+				'std'                   => 'Oswald',
 				'type'                  => 'font',
 				'refresh_on_change'     => false,
 				'affect_on_change_el'   => '.as-portfolio-ajax-wrapper .as-port-control span.as-btn-text-ajax-prj',
@@ -1616,7 +1616,7 @@ class Heli_Projects extends DSLC_Module{
 			array(
 				'label'                 => __( 'Font Family of Title', 'dslc_string' ),
 				'id'                    => 'as_ajax_projects_title_font_family',
-				'std'                   => 'Raleway',
+				'std'                   => 'Oswald',
 				'type'                  => 'font',
 				'refresh_on_change'     => false,
 				'affect_on_change_el'   => '.as-title-port-ajax-wrapper .as-port-ajax-title',
@@ -1875,7 +1875,7 @@ class Heli_Projects extends DSLC_Module{
 			array(
 				'label'                 => __( 'Font Family of Excerpt', 'dslc_string' ),
 				'id'                    => 'as_ajax_projects_excerpt_font_family',
-				'std'                   => 'Raleway',
+				'std'                   => 'Oswald',
 				'type'                  => 'font',
 				'refresh_on_change'     => false,
 				'affect_on_change_el'   => '.as-port-ajax-data .as-port-ajax-excerpt',

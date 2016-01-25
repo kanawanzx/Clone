@@ -518,7 +518,7 @@ class Heli_SubscriptionBox extends DSLC_Module
             array(
                 'label'                 => __( 'Font Family', 'dslc_string' ),
                 'id'                    => 'as_button_css_newsletter_font_family',
-                'std'                   => 'Raleway',
+                'std'                   => 'Oswald',
                 'type'                  => 'font',
                 'refresh_on_change'     => false,
                 'affect_on_change_el'   => '.as_mailchimp_form .as_button_submit_mailchimp',

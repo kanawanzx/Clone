@@ -965,7 +965,7 @@ class Heli_Staff extends DSLC_Module {
 			array(
 				'label' => __( 'Font Family', 'dslc_string' ),
 				'id' => 'css_title_font_family',
-				'std' => 'Raleway',
+				'std' => 'Oswald',
 				'type' => 'font',
 				'refresh_on_change' => false,
 				'affect_on_change_el' => '.dslc-staff-member-title h2',
