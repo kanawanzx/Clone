@@ -139,13 +139,17 @@ ul.contact-info-widget li .as-icon-contact-wrapper{
 .woocommerce nav.woocommerce-pagination ul li span.current, .woocommerce nav.woocommerce-pagination ul li a:hover, .woocommerce nav.woocommerce-pagination ul li a:focus, .woocommerce #content nav.woocommerce-pagination ul li span.current, .woocommerce #content nav.woocommerce-pagination ul li a:hover, .woocommerce #content nav.woocommerce-pagination ul li a:focus, .woocommerce-page nav.woocommerce-pagination ul li span.current, .woocommerce-page nav.woocommerce-pagination ul li a:hover, .woocommerce-page nav.woocommerce-pagination ul li a:focus, .woocommerce-page #content nav.woocommerce-pagination ul li span.current, .woocommerce-page #content nav.woocommerce-pagination ul li a:hover, .woocommerce-page #content nav.woocommerce-pagination ul li a:focus,.product_listing_buttons a.as_button, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce #respond input#submit.alt, .woocommerce #content input.button.alt, .woocommerce-page a.button.alt, .woocommerce-page button.button.alt, .woocommerce-page input.button.alt, .woocommerce-page #respond input#submit.alt, .woocommerce-page #content input.button.alt, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce #content input.button.alt:hover, .woocommerce-page a.button.alt:hover, .woocommerce-page button.button.alt:hover, .woocommerce-page input.button.alt:hover, .woocommerce-page #respond input#submit.alt:hover, .woocommerce-page #content input.button.alt:hover, .woocommerce .widget_price_filter .ui-slider .ui-slider-range, .woocommerce.widget_shopping_cart .buttons a:hover, .woocommerce .widget_shopping_cart .buttons a:hover, .woocommerce-page.widget_shopping_cart .buttons a:hover, .woocommerce-page .widget_shopping_cart .buttons a:hover, .widget_shopping_cart_content .buttons a:hover{
 	background: '.$main_color.';
 }
-.woocommerce table.cart a.remove:hover, .woocommerce #content table.cart a.remove:hover, .woocommerce-page table.cart a.remove:hover, .woocommerce-page #content table.cart a.remove:hover {
+.as-header-4-menu-wrapper .as-menu-4 li:hover a, .woocommerce table.cart a.remove:hover, .woocommerce #content table.cart a.remove:hover, .woocommerce-page table.cart a.remove:hover, .woocommerce-page #content table.cart a.remove:hover {
 	color: '.$main_color.';
 }
 .search-form-wrapper-dialog input[type="submit"]{
     color: '.$main_color.';
 }
-.as-quatity-item-woo, .search-form-wrapper-dialog input[type="submit"]:hover{
+.search-form-wrapper-dialog input[type="submit"]{
+     border-color: '.$main_color.';
+         outline-color:'.$main_color.';
+    }
+.as-post-btn-group a.as-btn-readmore:hover, .as-quatity-item-woo, .search-form-wrapper-dialog input[type="submit"]:hover{
         background: '.$main_color.';
 }
 ';

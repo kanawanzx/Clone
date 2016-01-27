@@ -96,30 +96,26 @@ if (!is_page_template('template-blank.php'))
     //BREADCRUM CONTENT
     $breadcrum_content      = array();
     $breadcrum_divider      = "/";
-    $breadcrum_divider_html = $breadcrum_divider_html = '</li> <span class="as-breadcrumb-divider">' . $breadcrum_divider . '</span><li>';
-    if (!is_home())
-    {
+    $breadcrum_divider_html = $breadcrum_divider_html = '</li> <li><span class="as-breadcrumb-divider">' . $breadcrum_divider . '</span></li><li>';
+    if (!is_home()) {
         $breadcrum_content[] = array(
             "title" => "Home",
             "url"   => home_url()
         );
 
-        if (is_category() || is_singular('post'))
-        {
+        if (is_category() || is_singular('post')) {
             $breadcrum_content[] = get_the_category_list($breadcrum_divider_html);
 
-            if (is_single())
-            {
+            if (is_single()) {
                 $breadcrum_content[] = the_title("", "", false);
             }
         }
-        elseif (is_tax('product_cat'))
-        {
+        elseif (is_tax('product_cat')) {
             global $wp_query;
             $current_term = $wp_query->get_queried_object();
             $ancestors    = array_reverse(get_ancestors($current_term->term_id, 'product_cat'));
-            foreach ($ancestors as $ancestor)
-            {
+            foreach ($ancestors as
+                    $ancestor) {
                 $ancestor            = get_term($ancestor, 'product_cat');
                 $breadcrum_content[] = array(
                     "title" => esc_html($ancestor->name),
@@ -128,20 +124,16 @@ if (!is_page_template('template-blank.php'))
             }
             $breadcrum_content[] = esc_html($current_term->name);
         }
-        elseif (is_singular('portfolio'))
-        {
+        elseif (is_singular('portfolio')) {
             $breadcrum_content[] = get_the_term_list($post->ID, 'portfolio_cats', '', $breadcrum_divider_html);
             $breadcrum_content[] = the_title("", "", false);
         }
-        elseif (is_singular('product'))
-        {
+        elseif (is_singular('product')) {
             $breadcrum_content[] = get_the_term_list($post->ID, 'product_cat', '', $breadcrum_divider_html);
             $breadcrum_content[] = the_title("", "", false);
         }
-        elseif (is_page())
-        {
-            if (!empty($post->post_parent))
-            {
+        elseif (is_page()) {
+            if (!empty($post->post_parent)) {
                 $breadcrum_content[] = array(
                     "title" => get_the_title($post->post_parent),
                     "url"   => get_permalink($post->post_parent)
@@ -149,42 +141,33 @@ if (!is_page_template('template-blank.php'))
             }
             $breadcrum_content[] = the_title("", "", false);
         }
-        else if (is_page('Shop'))
-        {
+        else if (is_page('Shop')) {
             $breadcrum_content[] = "Shop";
         }
     }
-    elseif (is_tag())
-    {
+    elseif (is_tag()) {
         $breadcrum_content[] = single_tag_title();
     }
-    elseif (is_day())
-    {
-        $breadcrum_content[] = "Archive for " . apply_filters('the_time', get_the_time('F jS, Y'), 'F jS, Y');
+    elseif (is_day()) {
+        $breadcrum_content[] = translate('Archive for', 'alenastudio') . apply_filters('the_time', get_the_time('F jS, Y'), 'F jS, Y');
     }
-    elseif (is_month())
-    {
-        $breadcrum_content[] = "Archive for " . apply_filters('the_time', get_the_time('F, Y'), 'F, Y');
+    elseif (is_month()) {
+        $breadcrum_content[] = translate('Archive for', 'alenastudio') . apply_filters('the_time', get_the_time('F, Y'), 'F, Y');
     }
-    elseif (is_year())
-    {
-        $breadcrum_content[] = "Archive for " . apply_filters('the_time', get_the_time('Y'), 'Y');
+    elseif (is_year()) {
+        $breadcrum_content[] = translate('Archive for', 'alenastudio') . apply_filters('the_time', get_the_time('Y'), 'Y');
     }
-    elseif (is_author())
-    {
-        $breadcrum_content[] = "Author Archive";
+    elseif (is_author()) {
+        $breadcrum_content[] = translate('Author Archive', 'alenastudio');
     }
-    elseif (isset($_GET['paged']) && !empty($_GET['paged']))
-    {
-        $breadcrum_content[] = "Blog Archives";
+    elseif (isset($_GET['paged']) && !empty($_GET['paged'])) {
+        $breadcrum_content[] = translate('Blog Archives', 'alenastudio');
     }
-    elseif (is_search())
-    {
-        $breadcrum_content[] = "Search Results";
+    elseif (is_search()) {
+        $breadcrum_content[] = translate('Search Results', 'alenastudio');
     }
-    elseif (is_404())
-    {
-        $breadcrum_content[] = "404 page not found";
+    elseif (is_404()) {
+        $breadcrum_content[] = translate('404 page not found', 'alenastudio');
     }
     ?>
     <!-- Breadcrumb & Title
@@ -193,53 +176,53 @@ if (!is_page_template('template-blank.php'))
         <div class="as-wrapper clearfix">
             <div class="dslc-col dslc-12-col dslc-last-col">
                 <?php
-                if (is_home())
-                {
+                if (is_home()) {
                     ?>
                     <h1 class="as-page-title"><?php echo esc_html($breadcrumb_title); ?></h1>
                     <?php
                 }
-                elseif ($is_archive_class)
-                {
+                elseif ($is_archive_class) {
                     ?>
                     <h1 class="as-page-title as-page-title-archive"><?php echo esc_html($breadcrumb_title); ?></h1>
                     <?php
                 }
-                else
-                {
+                else {
                     ?>
                     <h1 class="as-page-title as-breadcrumb-title"><?php echo esc_html($breadcrumb_title); ?></h1>
-                <?php } ?>
-                <!-- Breadcrumb Content -->
-                <ul class="as-breadcrumb-link">
                     <?php
-                    if (!empty($breadcrum_content))
-                    {
-                        $count = 0;
-                        foreach ($breadcrum_content as $link)
-                        {
-                            $count++;
-                            echo "<li>";
-                            if (is_array($link))
-                            {
-                                ?>
-                                <a href="<?php echo esc_url($link["url"]) ?>"><span class='dslc-icon dslc-icon-home'></span>&nbsp;<?php echo esc_html($link["title"]); ?></a>
-                                <?php
-                            }
-                            else
-                            {
-                                echo balanceTags ($link, true);
-                            }
-                            echo "</li>";
-                            if ($count < count($breadcrum_content))
-                            {
-                                echo '<li><span class="as-breadcrumb-divider">' . esc_html( $breadcrum_divider ) . '</span></li>';
+                }
+                $as_breadcrumb   = ( rwmb_meta('as_breadcrumb_menu'));
+                $as_header_check = ( rwmb_meta('as_custom_page_metaboxes', 'type=checkbox_list'));
+                settype($as_header_check, 'array');
+                if ((($as_breadcrumb != 3) | !(in_array('page_breadcrumb_options', $as_header_check))) && (as_option('as_option_breadcrumb_link', '1'))):
+                    ?>    
+                    <!-- Breadcrumb Content -->
+                    <ul class="as-breadcrumb-link">
+                        <?php
+                        if (!empty($breadcrum_content)) {
+                            $count = 0;
+                            foreach ($breadcrum_content as
+                                    $link) {
+                                $count++;
+                                echo "<li>";
+                                if (is_array($link)) {
+                                    ?>
+                                    <a href="<?php echo esc_url($link["url"]) ?>"><?php echo esc_html($link["title"]); ?></a>
+                                    <?php
+                                }
+                                else {
+                                    echo balanceTags($link, true);
+                                }
+                                echo "</li>";
+                                if ($count < count($breadcrum_content)) {
+                                    echo '<li><span class="as-breadcrumb-divider">' . esc_html($breadcrum_divider) . '</span></li>';
+                                }
                             }
                         }
-                    }
-                    ?>
-                </ul>
-                <!-- End - Breadcrumb Content -->
+                        ?>
+                    </ul>
+                    <!-- End - Breadcrumb Content -->
+                <?php endif; ?>
             </div>
         </div>
     </div>

@@ -47,13 +47,12 @@
         <div id="as-style-selection" class="as-closed">
             <h3 class="as-title-panel">OTHER DEMO</h3>
             <ul class="as-list-select-demo">
-                <li><a href="http://helistudio.com/heli/creative" target="_blank"><img src="http://document.helistudio.com/heli/img-demo-doc/demo-1.jpg" alt="img-demo"></a><img src="http://document.helistudio.com/heli/img-demo-doc/demo-1.jpg" class="as-large-img-demo" alt="img-demo"></li>
-                <li><a href="http://helistudio.com/heli/portfolio" target="_blank"><img src="http://document.helistudio.com/heli/img-demo-doc/demo-2.jpg" alt="img-demo"></a><img src="http://document.helistudio.com/heli/img-demo-doc/demo-2.jpg" class="as-large-img-demo" alt="img-demo"></li>
-                <li><a href="http://helistudio.com/heli/creative-onepage" target="_blank"><img src="http://document.helistudio.com/heli/img-demo-doc/demo-3.jpg" alt="img-demo"></a><img src="http://document.helistudio.com/heli/img-demo-doc/demo-3.jpg" class="as-large-img-demo" alt="img-demo"></li>
-                <li><a href="http://helistudio.com/heli/business-onepage" target="_blank"><img src="http://document.helistudio.com/heli/img-demo-doc/demo-4.jpg" alt="img-demo"></a><img src="http://document.helistudio.com/heli/img-demo-doc/demo-4.jpg" class="as-large-img-demo" alt="img-demo"></li>
+               
+                <li><a href="http://heli.chemisttheme.com/creative-onepage/" target="_blank"><img src="http://heli.chemisttheme.com/wp-content/uploads/2016/01/demo-creative-1.jpg" alt="img-demo"></a><img src="http://heli.chemisttheme.com/wp-content/uploads/2016/01/demo-creative-1.jpg" class="as-large-img-demo" alt="img-demo"></li>
+                <li><a href="http://heli.chemisttheme.com/business-one-page/" target="_blank"><img src="http://heli.chemisttheme.com/wp-content/uploads/2016/01/demo-business-1.jpg" alt="img-demo"></a><img src="http://heli.chemisttheme.com/wp-content/uploads/2016/01/demo-business-1.jpg" class="as-large-img-demo" alt="img-demo"></li>
             </ul>
             <div class="as-button-demo">
-                <a href="http://themeforest.net/item/heli-creative-multipurpose-wordpress-theme/11620730?ref=helistudio" class="as-button-demo">PURCHASE NOW</a>
+                <a href="#" class="as-button-demo">PURCHASE NOW</a>
             </div>
             <div id="as-toggle-section"><span class="dslc-icon dslc-icon-cog"></span></div>
         </div>
